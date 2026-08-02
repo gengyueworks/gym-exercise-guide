@@ -20,7 +20,7 @@
 
 | 起始位 | 结束位 |
 |:---:|:---:|
-| <img src="https://cdn.jsdelivr.net/gh/gengyueworks/gym-exercise-guide@main/assets/exercises/Kneeling_Cable_Crunch_With_Alternating_Oblique_Twists/0.jpg" width="360"> | <img src="https://cdn.jsdelivr.net/gh/gengyueworks/gym-exercise-guide@main/assets/exercises/Kneeling_Cable_Crunch_With_Alternating_Oblique_Twists/1.jpg" width="360"> |
+| <img src="../../assets/exercises/Kneeling_Cable_Crunch_With_Alternating_Oblique_Twists/0.jpg" width="360"> | <img src="../../assets/exercises/Kneeling_Cable_Crunch_With_Alternating_Oblique_Twists/1.jpg" width="360"> |
 
 ## 动作要点
 
