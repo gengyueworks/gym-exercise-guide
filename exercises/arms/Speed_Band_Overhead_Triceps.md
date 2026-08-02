@@ -13,7 +13,7 @@
 
 | 起始位 | 结束位 |
 |:---:|:---:|
-| <img src="../../assets/exercises/Speed_Band_Overhead_Triceps/0.jpg" width="360"> | <img src="../../assets/exercises/Speed_Band_Overhead_Triceps/1.jpg" width="360"> |
+| <img src="https://cdn.jsdelivr.net/gh/gengyueworks/gym-exercise-guide@main/assets/exercises/Speed_Band_Overhead_Triceps/0.jpg" width="360"> | <img src="https://cdn.jsdelivr.net/gh/gengyueworks/gym-exercise-guide@main/assets/exercises/Speed_Band_Overhead_Triceps/1.jpg" width="360"> |
 
 ## 动作要点
 
