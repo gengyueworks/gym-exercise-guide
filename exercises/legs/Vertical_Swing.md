@@ -1,0 +1,51 @@
+# 垂直摆荡
+
+**Vertical Swing**
+
+> 部位：腿臀　|　器械：哑铃　|　难度：⭐ 新手　|　类型：爆发力/弹跳 · 复合动作 · 拉
+
+## 目标肌群
+
+- **主要**：腘绳肌（大腿后侧）
+- **协同**：臀大肌、股四头肌（大腿前侧）、三角肌
+
+## 动作示意图
+
+| 起始位 | 结束位 |
+|:---:|:---:|
+| <img src="../../assets/exercises/Vertical_Swing/0.jpg" width="360"> | <img src="../../assets/exercises/Vertical_Swing/1.jpg" width="360"> |
+
+## 动作要点
+
+1. 双脚略宽于肩，哑铃放在身前一步远的位置，屈髋俯身握住它。
+2. 背部中立、核心绷紧，先把哑铃向后「传」到两腿之间（像橄榄球开球）。
+3. 爆发式伸髋站直，用臀部把哑铃「甩」出去——不是用手臂抬。
+4. 到达最高点时臀部夹紧、核心收紧，哑铃处于失重状态。
+5. 让哑铃自然回落，顺势屈髋进入下一次，全程保持节奏。
+
+## 常见错误
+
+- ❌ 用手臂往上抬 → 肩部先累，臀部没练到
+- ❌ 变成深蹲式起落 → 这是髋铰链动作，不是深蹲
+- ❌ 顶端腰椎后仰 → 腰部代偿
+- ✅ 髋铰链发力、手臂只是绳子、顶端夹臀
+
+## 训练建议
+
+3–5 组 × 3–6 次，组间充分休息 2–3 分钟；追求每一次的质量，疲劳后立即停止。
+
+<details>
+<summary><b>英文原始步骤 / Original Instructions</b>（点击展开）</summary>
+
+1. Allow the dumbbell to hang at arms length between your legs, holding it with both hands. Keep your back straight and your head up.
+2. Swing the dumbbell between your legs, flexing at the hips and bending the knees slightly.
+3. Powerfully reverse the motion by extending at the hips, knees, and ankles to propel yourself upward, swinging the dumbell over your head.
+4. As you land, absorb the impact through your legs and draw the dumbbell to your torso before the next repetition.
+
+</details>
+
+---
+
+[← 返回腿臀部位索引](README.md)　|　[返回首页](../../README.md)
+
+<sub>数据与图片来源：[yuhonas/free-exercise-db](https://github.com/yuhonas/free-exercise-db)（The Unlicense，公有领域）　·　中文名称、动作要点与内容组织：Yue（gengyueworks）</sub>

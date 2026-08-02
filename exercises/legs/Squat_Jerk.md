@@ -1,0 +1,50 @@
+# 深蹲挺举
+
+**Squat Jerk**
+
+> 部位：腿臀　|　器械：杠铃　|　难度：⭐⭐⭐ 高手　|　类型：力量训练 · 复合动作 · 推
+
+## 目标肌群
+
+- **主要**：股四头肌（大腿前侧）
+- **协同**：小腿（腓肠肌/比目鱼肌）、臀大肌、腘绳肌（大腿后侧）、三角肌、肱三头肌
+
+## 动作示意图
+
+| 起始位 | 结束位 |
+|:---:|:---:|
+| <img src="../../assets/exercises/Squat_Jerk/0.jpg" width="360"> | <img src="../../assets/exercises/Squat_Jerk/1.jpg" width="360"> |
+
+## 动作要点
+
+1. 这是技术性极高的举重动作，强烈建议先在教练指导下用空杆学习动作模式。
+2. 起始姿势：杠贴小腿，挺胸收肩胛，背部中立，核心绷紧。
+3. 第一发力：用腿把杠「推离」地面，保持背角不变，杠贴腿上行。
+4. 第二发力：过膝后爆发式伸髋伸膝、耸肩提肘，把杠加速向上。
+5. 接杠：迅速下潜到接杠位置稳住，站起完成，然后有控制地放下杠铃。
+
+## 常见错误
+
+- ❌ 用手臂拉杠 → 手臂只负责传导，发力靠髋腿
+- ❌ 杠远离身体走弧线 → 力臂变大，几乎必失败
+- ❌ 未掌握技术就上大重量 → 受伤风险极高
+- ✅ 空杆练技术、杠贴身走、髋腿主导发力
+
+## 训练建议
+
+3–5 组 × 6–12 次，组间休息 90–150 秒；先把动作做标准再加重量。
+
+<details>
+<summary><b>英文原始步骤 / Original Instructions</b>（点击展开）</summary>
+
+1. Standing with the weight racked on the front of the shoulders, begin with the dip. With your feet directly under your hips, flex the knees without moving the hips backward. Go down only slightly, and reverse direction as powerfully as possible. Drive through the heels create as much speed and force as possible, and be sure to move your head out of the way as the bar leaves the shoulders.
+2. At this moment as the feet leave the floor, the feet must be placed into the receiving position as quickly as possible. In the brief moment the feet are not actively driving against the platform, the athlete's effort to push the bar up will drive them down. The feet should move forcefully to just outside the hips, turned out as necessary. Receive the bar with your body in a full squat and the arms fully extended overhead.
+3. Keeping the bar aligned over the front of the heels, your head and chest up, drive throught heels of the feet to move to a standing position. Carefully return the weight to floor.
+
+</details>
+
+---
+
+[← 返回腿臀部位索引](README.md)　|　[返回首页](../../README.md)
+
+<sub>数据与图片来源：[yuhonas/free-exercise-db](https://github.com/yuhonas/free-exercise-db)（The Unlicense，公有领域）　·　中文名称、动作要点与内容组织：Yue（gengyueworks）</sub>
