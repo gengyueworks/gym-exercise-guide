@@ -1,0 +1,970 @@
+[
+  {
+    "key": "leg_press",
+    "name_zh": "腿举机",
+    "name_en": "Leg Press Machine",
+    "bodyPart_zh": "腿",
+    "img": "leg-press.png",
+    "desc": "坐姿蹬伸双腿，主要练股四头肌，也带到大腿后侧与臀部。",
+    "examples": [
+      {
+        "id": "Calf_Press_On_The_Leg_Press_Machine",
+        "name_zh": "腿举（倒蹬）器械器械提踵",
+        "name_en": "Calf Press On The Leg Press Machine",
+        "img": "Calf_Press_On_The_Leg_Press_Machine/0.jpg"
+      },
+      {
+        "id": "Leg_Press",
+        "name_zh": "倒蹬机腿举",
+        "name_en": "Leg Press",
+        "img": "Leg_Press/0.jpg"
+      },
+      {
+        "id": "Narrow_Stance_Leg_Press",
+        "name_zh": "窄距站距腿举（倒蹬）",
+        "name_en": "Narrow Stance Leg Press",
+        "img": "Narrow_Stance_Leg_Press/0.jpg"
+      },
+      {
+        "id": "Smith_Machine_Leg_Press",
+        "name_zh": "史密斯机腿举（倒蹬）",
+        "name_en": "Smith Machine Leg Press",
+        "img": "Smith_Machine_Leg_Press/0.jpg"
+      }
+    ]
+  },
+  {
+    "key": "leg_ext",
+    "name_zh": "腿屈伸机",
+    "name_en": "Leg Extension Machine",
+    "bodyPart_zh": "腿",
+    "img": "leg-extension.png",
+    "desc": "坐姿向前踢小腿，孤立刺激股四头肌。",
+    "examples": [
+      {
+        "id": "Leg_Extensions",
+        "name_zh": "坐姿腿屈伸",
+        "name_en": "Leg Extensions",
+        "img": "Leg_Extensions/0.jpg"
+      },
+      {
+        "id": "Single-Leg_Leg_Extension",
+        "name_zh": "单腿坐姿腿屈伸",
+        "name_en": "Single-Leg Leg Extension",
+        "img": "Single-Leg_Leg_Extension/0.jpg"
+      }
+    ]
+  },
+  {
+    "key": "leg_curl",
+    "name_zh": "腿弯举机",
+    "name_en": "Leg Curl Machine",
+    "bodyPart_zh": "腿",
+    "img": "leg-curl.png",
+    "desc": "俯卧或坐姿弯小腿，练腘绳肌（大腿后侧）。",
+    "examples": [
+      {
+        "id": "Ball_Leg_Curl",
+        "name_zh": "球腿弯举",
+        "name_en": "Ball Leg Curl",
+        "img": "Ball_Leg_Curl/0.jpg"
+      },
+      {
+        "id": "Lying_Leg_Curls",
+        "name_zh": "俯卧腿弯举",
+        "name_en": "Lying Leg Curls",
+        "img": "Lying_Leg_Curls/0.jpg"
+      },
+      {
+        "id": "Seated_Leg_Curl",
+        "name_zh": "坐姿腿弯举",
+        "name_en": "Seated Leg Curl",
+        "img": "Seated_Leg_Curl/0.jpg"
+      },
+      {
+        "id": "Standing_Leg_Curl",
+        "name_zh": "站姿腿弯举",
+        "name_en": "Standing Leg Curl",
+        "img": "Standing_Leg_Curl/0.jpg"
+      }
+    ]
+  },
+  {
+    "key": "hip_adb",
+    "name_zh": "髋内收外展机",
+    "name_en": "Hip Adductor/Abductor Machine",
+    "bodyPart_zh": "腿",
+    "img": "hip-adductor.png",
+    "desc": "夹/开双腿，练大腿内侧（内收）与外侧（臀中肌）。",
+    "examples": [
+      {
+        "id": "Adductor",
+        "name_zh": "内收肌拉伸",
+        "name_en": "Adductor",
+        "img": "Adductor/0.jpg"
+      },
+      {
+        "id": "Adductor_Groin",
+        "name_zh": "内收肌腹股沟/内收肌拉伸",
+        "name_en": "Adductor/Groin",
+        "img": "Adductor_Groin/0.jpg"
+      },
+      {
+        "id": "Thigh_Abductor",
+        "name_zh": "大腿外展肌",
+        "name_en": "Thigh Abductor",
+        "img": "Thigh_Abductor/0.jpg"
+      },
+      {
+        "id": "Thigh_Adductor",
+        "name_zh": "大腿内收肌",
+        "name_en": "Thigh Adductor",
+        "img": "Thigh_Adductor/0.jpg"
+      }
+    ]
+  },
+  {
+    "key": "calf",
+    "name_zh": "提踵机",
+    "name_en": "Calf Raise Machine",
+    "bodyPart_zh": "小腿",
+    "img": "calf-raise.png",
+    "desc": "踮脚尖练小腿腓肠肌与比目鱼肌。",
+    "examples": [
+      {
+        "id": "Ab_Crunch_Machine",
+        "name_zh": "腹肌卷腹器械",
+        "name_en": "Ab Crunch Machine",
+        "img": "Ab_Crunch_Machine/0.jpg"
+      },
+      {
+        "id": "Barbell_Seated_Calf_Raise",
+        "name_zh": "杠铃坐姿提踵",
+        "name_en": "Barbell Seated Calf Raise",
+        "img": "Barbell_Seated_Calf_Raise/0.jpg"
+      },
+      {
+        "id": "Bicycling_Stationary",
+        "name_zh": "骑行固定式",
+        "name_en": "Bicycling, Stationary",
+        "img": "Bicycling_Stationary/0.jpg"
+      },
+      {
+        "id": "Butterfly",
+        "name_zh": "蝴蝶机夹胸",
+        "name_en": "Butterfly",
+        "img": "Butterfly/0.jpg"
+      },
+      {
+        "id": "Calf-Machine_Shoulder_Shrug",
+        "name_zh": "提踵机耸肩",
+        "name_en": "Calf-Machine Shoulder Shrug",
+        "img": "Calf-Machine_Shoulder_Shrug/0.jpg"
+      },
+      {
+        "id": "Calf_Press",
+        "name_zh": "器械提踵",
+        "name_en": "Calf Press",
+        "img": "Calf_Press/0.jpg"
+      }
+    ]
+  },
+  {
+    "key": "chest_press",
+    "name_zh": "坐姿推胸机",
+    "name_en": "Chest Press Machine",
+    "bodyPart_zh": "胸",
+    "img": "chest-press.png",
+    "desc": "坐姿向前推，固定轨迹练胸大肌，新手友好。",
+    "examples": [
+      {
+        "id": "Ab_Crunch_Machine",
+        "name_zh": "腹肌卷腹器械",
+        "name_en": "Ab Crunch Machine",
+        "img": "Ab_Crunch_Machine/0.jpg"
+      },
+      {
+        "id": "Bicycling_Stationary",
+        "name_zh": "骑行固定式",
+        "name_en": "Bicycling, Stationary",
+        "img": "Bicycling_Stationary/0.jpg"
+      },
+      {
+        "id": "Butterfly",
+        "name_zh": "蝴蝶机夹胸",
+        "name_en": "Butterfly",
+        "img": "Butterfly/0.jpg"
+      },
+      {
+        "id": "Cable_Chest_Press",
+        "name_zh": "绳索胸推",
+        "name_en": "Cable Chest Press",
+        "img": "Cable_Chest_Press/0.jpg"
+      },
+      {
+        "id": "Calf-Machine_Shoulder_Shrug",
+        "name_zh": "提踵机耸肩",
+        "name_en": "Calf-Machine Shoulder Shrug",
+        "img": "Calf-Machine_Shoulder_Shrug/0.jpg"
+      },
+      {
+        "id": "Calf_Press",
+        "name_zh": "器械提踵",
+        "name_en": "Calf Press",
+        "img": "Calf_Press/0.jpg"
+      }
+    ]
+  },
+  {
+    "key": "pec_deck",
+    "name_zh": "蝴蝶机/夹胸机",
+    "name_en": "Pec Deck / Chest Fly Machine",
+    "bodyPart_zh": "胸",
+    "img": "pec-deck.png",
+    "desc": "双臂向内夹，孤立刺激胸大肌中缝。",
+    "examples": [
+      {
+        "id": "Ab_Crunch_Machine",
+        "name_zh": "腹肌卷腹器械",
+        "name_en": "Ab Crunch Machine",
+        "img": "Ab_Crunch_Machine/0.jpg"
+      },
+      {
+        "id": "Back_Flyes_-_With_Bands",
+        "name_zh": "背飞鸟（弹力带）",
+        "name_en": "Back Flyes - With Bands",
+        "img": "Back_Flyes_-_With_Bands/0.jpg"
+      },
+      {
+        "id": "Bicycling_Stationary",
+        "name_zh": "骑行固定式",
+        "name_en": "Bicycling, Stationary",
+        "img": "Bicycling_Stationary/0.jpg"
+      },
+      {
+        "id": "Bodyweight_Flyes",
+        "name_zh": "自重飞鸟",
+        "name_en": "Bodyweight Flyes",
+        "img": "Bodyweight_Flyes/0.jpg"
+      },
+      {
+        "id": "Butterfly",
+        "name_zh": "蝴蝶机夹胸",
+        "name_en": "Butterfly",
+        "img": "Butterfly/0.jpg"
+      },
+      {
+        "id": "Cable_Rear_Delt_Fly",
+        "name_zh": "绳索三角肌后束飞鸟",
+        "name_en": "Cable Rear Delt Fly",
+        "img": "Cable_Rear_Delt_Fly/0.jpg"
+      }
+    ]
+  },
+  {
+    "key": "lat_pulldown",
+    "name_zh": "高位下拉机",
+    "name_en": "Lat Pulldown Machine",
+    "bodyPart_zh": "背",
+    "img": "lat-pulldown.png",
+    "desc": "下拉横杆到锁骨，练背阔肌（背的宽度）。",
+    "examples": [
+      {
+        "id": "Close-Grip_Front_Lat_Pulldown",
+        "name_zh": "窄握高位下拉",
+        "name_en": "Close-Grip Front Lat Pulldown",
+        "img": "Close-Grip_Front_Lat_Pulldown/0.jpg"
+      },
+      {
+        "id": "Full_Range-Of-Motion_Lat_Pulldown",
+        "name_zh": "全程幅度动作高位下拉",
+        "name_en": "Full Range-Of-Motion Lat Pulldown",
+        "img": "Full_Range-Of-Motion_Lat_Pulldown/0.jpg"
+      },
+      {
+        "id": "One_Arm_Lat_Pulldown",
+        "name_zh": "单臂高位下拉",
+        "name_en": "One Arm Lat Pulldown",
+        "img": "One_Arm_Lat_Pulldown/0.jpg"
+      },
+      {
+        "id": "Rocky_Pull-Ups_Pulldowns",
+        "name_zh": "洛基引体向上下拉",
+        "name_en": "Rocky Pull-Ups/Pulldowns",
+        "img": "Rocky_Pull-Ups_Pulldowns/0.jpg"
+      },
+      {
+        "id": "Rope_Straight-Arm_Pulldown",
+        "name_zh": "绳索直臂下拉",
+        "name_en": "Rope Straight-Arm Pulldown",
+        "img": "Rope_Straight-Arm_Pulldown/0.jpg"
+      },
+      {
+        "id": "Straight-Arm_Pulldown",
+        "name_zh": "直臂下拉",
+        "name_en": "Straight-Arm Pulldown",
+        "img": "Straight-Arm_Pulldown/0.jpg"
+      }
+    ]
+  },
+  {
+    "key": "seated_row",
+    "name_zh": "坐姿划船机",
+    "name_en": "Seated Row Machine",
+    "bodyPart_zh": "背",
+    "img": "seated-row.png",
+    "desc": "向腹部拉握把，练背阔肌与中下斜方（背的厚度）。",
+    "examples": [
+      {
+        "id": "Ab_Crunch_Machine",
+        "name_zh": "腹肌卷腹器械",
+        "name_en": "Ab Crunch Machine",
+        "img": "Ab_Crunch_Machine/0.jpg"
+      },
+      {
+        "id": "Bicycling_Stationary",
+        "name_zh": "骑行固定式",
+        "name_en": "Bicycling, Stationary",
+        "img": "Bicycling_Stationary/0.jpg"
+      },
+      {
+        "id": "Butterfly",
+        "name_zh": "蝴蝶机夹胸",
+        "name_en": "Butterfly",
+        "img": "Butterfly/0.jpg"
+      },
+      {
+        "id": "Calf-Machine_Shoulder_Shrug",
+        "name_zh": "提踵机耸肩",
+        "name_en": "Calf-Machine Shoulder Shrug",
+        "img": "Calf-Machine_Shoulder_Shrug/0.jpg"
+      },
+      {
+        "id": "Calf_Press",
+        "name_zh": "器械提踵",
+        "name_en": "Calf Press",
+        "img": "Calf_Press/0.jpg"
+      },
+      {
+        "id": "Calf_Press_On_The_Leg_Press_Machine",
+        "name_zh": "腿举（倒蹬）器械器械提踵",
+        "name_en": "Calf Press On The Leg Press Machine",
+        "img": "Calf_Press_On_The_Leg_Press_Machine/0.jpg"
+      }
+    ]
+  },
+  {
+    "key": "smith",
+    "name_zh": "史密斯机",
+    "name_en": "Smith Machine",
+    "bodyPart_zh": "全身",
+    "img": "smith-machine.png",
+    "desc": "固定轨迹杠铃，练深蹲/卧推/肩推等复合动作，安全可控。",
+    "examples": [
+      {
+        "id": "Decline_Smith_Press",
+        "name_zh": "下斜史密斯机推举",
+        "name_en": "Decline Smith Press",
+        "img": "Decline_Smith_Press/0.jpg"
+      },
+      {
+        "id": "Smith_Incline_Shoulder_Raise",
+        "name_zh": "史密斯机上斜肩上举",
+        "name_en": "Smith Incline Shoulder Raise",
+        "img": "Smith_Incline_Shoulder_Raise/0.jpg"
+      },
+      {
+        "id": "Smith_Machine_Behind_the_Back_Shrug",
+        "name_zh": "史密斯机背后耸肩",
+        "name_en": "Smith Machine Behind the Back Shrug",
+        "img": "Smith_Machine_Behind_the_Back_Shrug/0.jpg"
+      },
+      {
+        "id": "Smith_Machine_Bench_Press",
+        "name_zh": "史密斯机卧推",
+        "name_en": "Smith Machine Bench Press",
+        "img": "Smith_Machine_Bench_Press/0.jpg"
+      },
+      {
+        "id": "Smith_Machine_Bent_Over_Row",
+        "name_zh": "史密斯机俯身划船",
+        "name_en": "Smith Machine Bent Over Row",
+        "img": "Smith_Machine_Bent_Over_Row/0.jpg"
+      },
+      {
+        "id": "Smith_Machine_Calf_Raise",
+        "name_zh": "史密斯机提踵",
+        "name_en": "Smith Machine Calf Raise",
+        "img": "Smith_Machine_Calf_Raise/0.jpg"
+      }
+    ]
+  },
+  {
+    "key": "shoulder_press_m",
+    "name_zh": "肩上推举机",
+    "name_en": "Shoulder Press Machine",
+    "bodyPart_zh": "肩",
+    "img": "shoulder-press-machine.png",
+    "desc": "坐姿向上推，练三角肌前束与中束。",
+    "examples": [
+      {
+        "id": "Ab_Crunch_Machine",
+        "name_zh": "腹肌卷腹器械",
+        "name_en": "Ab Crunch Machine",
+        "img": "Ab_Crunch_Machine/0.jpg"
+      },
+      {
+        "id": "Alternating_Cable_Shoulder_Press",
+        "name_zh": "交替绳索肩推",
+        "name_en": "Alternating Cable Shoulder Press",
+        "img": "Alternating_Cable_Shoulder_Press/0.jpg"
+      },
+      {
+        "id": "Barbell_Shoulder_Press",
+        "name_zh": "杠铃肩推",
+        "name_en": "Barbell Shoulder Press",
+        "img": "Barbell_Shoulder_Press/0.jpg"
+      },
+      {
+        "id": "Bicycling_Stationary",
+        "name_zh": "骑行固定式",
+        "name_en": "Bicycling, Stationary",
+        "img": "Bicycling_Stationary/0.jpg"
+      },
+      {
+        "id": "Butterfly",
+        "name_zh": "蝴蝶机夹胸",
+        "name_en": "Butterfly",
+        "img": "Butterfly/0.jpg"
+      },
+      {
+        "id": "Cable_Shoulder_Press",
+        "name_zh": "绳索肩推",
+        "name_en": "Cable Shoulder Press",
+        "img": "Cable_Shoulder_Press/0.jpg"
+      }
+    ]
+  },
+  {
+    "key": "lateral_raise_m",
+    "name_zh": "侧平举机",
+    "name_en": "Lateral Raise Machine",
+    "bodyPart_zh": "肩",
+    "img": "lateral-raise-machine.png",
+    "desc": "侧平举孤立刺激三角肌中束（肩宽）。",
+    "examples": [
+      {
+        "id": "Ab_Crunch_Machine",
+        "name_zh": "腹肌卷腹器械",
+        "name_en": "Ab Crunch Machine",
+        "img": "Ab_Crunch_Machine/0.jpg"
+      },
+      {
+        "id": "Bicycling_Stationary",
+        "name_zh": "骑行固定式",
+        "name_en": "Bicycling, Stationary",
+        "img": "Bicycling_Stationary/0.jpg"
+      },
+      {
+        "id": "Butterfly",
+        "name_zh": "蝴蝶机夹胸",
+        "name_en": "Butterfly",
+        "img": "Butterfly/0.jpg"
+      },
+      {
+        "id": "Cable_Seated_Lateral_Raise",
+        "name_zh": "绳索坐姿侧平举",
+        "name_en": "Cable Seated Lateral Raise",
+        "img": "Cable_Seated_Lateral_Raise/0.jpg"
+      },
+      {
+        "id": "Calf-Machine_Shoulder_Shrug",
+        "name_zh": "提踵机耸肩",
+        "name_en": "Calf-Machine Shoulder Shrug",
+        "img": "Calf-Machine_Shoulder_Shrug/0.jpg"
+      },
+      {
+        "id": "Calf_Press",
+        "name_zh": "器械提踵",
+        "name_en": "Calf Press",
+        "img": "Calf_Press/0.jpg"
+      }
+    ]
+  },
+  {
+    "key": "cable",
+    "name_zh": "龙门架/绳索机",
+    "name_en": "Cable Machine / Crossover",
+    "bodyPart_zh": "全身",
+    "img": "cable-machine.png",
+    "desc": "可调滑轮练几乎全身：夹胸、下压、面拉、卷腹……",
+    "examples": [
+      {
+        "id": "Alternating_Cable_Shoulder_Press",
+        "name_zh": "交替绳索肩推",
+        "name_en": "Alternating Cable Shoulder Press",
+        "img": "Alternating_Cable_Shoulder_Press/0.jpg"
+      },
+      {
+        "id": "Bent_Over_Low-Pulley_Side_Lateral",
+        "name_zh": "俯身低位滑轮侧平举",
+        "name_en": "Bent Over Low-Pulley Side Lateral",
+        "img": "Bent_Over_Low-Pulley_Side_Lateral/0.jpg"
+      },
+      {
+        "id": "Bosu_Ball_Cable_Crunch_With_Side_Bends",
+        "name_zh": "波速球绳索卷腹（体侧屈）",
+        "name_en": "Bosu Ball Cable Crunch With Side Bends",
+        "img": "Bosu_Ball_Cable_Crunch_With_Side_Bends/0.jpg"
+      },
+      {
+        "id": "Cable_Chest_Press",
+        "name_zh": "绳索胸推",
+        "name_en": "Cable Chest Press",
+        "img": "Cable_Chest_Press/0.jpg"
+      },
+      {
+        "id": "Cable_Crossover",
+        "name_zh": "绳索夹胸",
+        "name_en": "Cable Crossover",
+        "img": "Cable_Crossover/0.jpg"
+      },
+      {
+        "id": "Cable_Crunch",
+        "name_zh": "绳索卷腹",
+        "name_en": "Cable Crunch",
+        "img": "Cable_Crunch/0.jpg"
+      }
+    ]
+  },
+  {
+    "key": "triceps_pushdown",
+    "name_zh": "三头下压绳",
+    "name_en": "Triceps Pushdown",
+    "bodyPart_zh": "手臂",
+    "img": "triceps-pushdown.png",
+    "desc": "绳索下压练肱三头肌（手臂后侧）。",
+    "examples": [
+      {
+        "id": "Alternating_Cable_Shoulder_Press",
+        "name_zh": "交替绳索肩推",
+        "name_en": "Alternating Cable Shoulder Press",
+        "img": "Alternating_Cable_Shoulder_Press/0.jpg"
+      },
+      {
+        "id": "Bent_Over_Low-Pulley_Side_Lateral",
+        "name_zh": "俯身低位滑轮侧平举",
+        "name_en": "Bent Over Low-Pulley Side Lateral",
+        "img": "Bent_Over_Low-Pulley_Side_Lateral/0.jpg"
+      },
+      {
+        "id": "Bosu_Ball_Cable_Crunch_With_Side_Bends",
+        "name_zh": "波速球绳索卷腹（体侧屈）",
+        "name_en": "Bosu Ball Cable Crunch With Side Bends",
+        "img": "Bosu_Ball_Cable_Crunch_With_Side_Bends/0.jpg"
+      },
+      {
+        "id": "Cable_Chest_Press",
+        "name_zh": "绳索胸推",
+        "name_en": "Cable Chest Press",
+        "img": "Cable_Chest_Press/0.jpg"
+      },
+      {
+        "id": "Cable_Crossover",
+        "name_zh": "绳索夹胸",
+        "name_en": "Cable Crossover",
+        "img": "Cable_Crossover/0.jpg"
+      },
+      {
+        "id": "Cable_Crunch",
+        "name_zh": "绳索卷腹",
+        "name_en": "Cable Crunch",
+        "img": "Cable_Crunch/0.jpg"
+      }
+    ]
+  },
+  {
+    "key": "preacher",
+    "name_zh": "牧师凳弯举机",
+    "name_en": "Preacher Curl Machine",
+    "bodyPart_zh": "手臂",
+    "img": "preacher-curl.png",
+    "desc": "固定大臂弯举，孤立练肱二头肌。",
+    "examples": [
+      {
+        "id": "Ab_Crunch_Machine",
+        "name_zh": "腹肌卷腹器械",
+        "name_en": "Ab Crunch Machine",
+        "img": "Ab_Crunch_Machine/0.jpg"
+      },
+      {
+        "id": "Bicycling_Stationary",
+        "name_zh": "骑行固定式",
+        "name_en": "Bicycling, Stationary",
+        "img": "Bicycling_Stationary/0.jpg"
+      },
+      {
+        "id": "Butterfly",
+        "name_zh": "蝴蝶机夹胸",
+        "name_en": "Butterfly",
+        "img": "Butterfly/0.jpg"
+      },
+      {
+        "id": "Cable_Preacher_Curl",
+        "name_zh": "绳索牧师凳弯举",
+        "name_en": "Cable Preacher Curl",
+        "img": "Cable_Preacher_Curl/0.jpg"
+      },
+      {
+        "id": "Calf-Machine_Shoulder_Shrug",
+        "name_zh": "提踵机耸肩",
+        "name_en": "Calf-Machine Shoulder Shrug",
+        "img": "Calf-Machine_Shoulder_Shrug/0.jpg"
+      },
+      {
+        "id": "Calf_Press",
+        "name_zh": "器械提踵",
+        "name_en": "Calf Press",
+        "img": "Calf_Press/0.jpg"
+      }
+    ]
+  },
+  {
+    "key": "roman_chair",
+    "name_zh": "罗马椅",
+    "name_en": "Roman Chair",
+    "bodyPart_zh": "核心",
+    "img": "roman-chair.png",
+    "desc": "俯身练下背竖脊肌与臀；反身可练腹。",
+    "examples": [
+      {
+        "id": "Hyperextensions_Back_Extensions",
+        "name_zh": "山羊挺身（背伸展）",
+        "name_en": "Hyperextensions (Back Extensions)",
+        "img": "Hyperextensions_Back_Extensions/0.jpg"
+      }
+    ]
+  },
+  {
+    "key": "ab_crunch",
+    "name_zh": "卷腹机",
+    "name_en": "Ab Crunch Machine",
+    "bodyPart_zh": "核心",
+    "img": "ab-crunch.png",
+    "desc": "固定轨迹卷腹，孤立练腹直肌。",
+    "examples": [
+      {
+        "id": "Ab_Crunch_Machine",
+        "name_zh": "腹肌卷腹器械",
+        "name_en": "Ab Crunch Machine",
+        "img": "Ab_Crunch_Machine/0.jpg"
+      },
+      {
+        "id": "Bicycling_Stationary",
+        "name_zh": "骑行固定式",
+        "name_en": "Bicycling, Stationary",
+        "img": "Bicycling_Stationary/0.jpg"
+      },
+      {
+        "id": "Bosu_Ball_Cable_Crunch_With_Side_Bends",
+        "name_zh": "波速球绳索卷腹（体侧屈）",
+        "name_en": "Bosu Ball Cable Crunch With Side Bends",
+        "img": "Bosu_Ball_Cable_Crunch_With_Side_Bends/0.jpg"
+      },
+      {
+        "id": "Butterfly",
+        "name_zh": "蝴蝶机夹胸",
+        "name_en": "Butterfly",
+        "img": "Butterfly/0.jpg"
+      },
+      {
+        "id": "Cable_Crunch",
+        "name_zh": "绳索卷腹",
+        "name_en": "Cable Crunch",
+        "img": "Cable_Crunch/0.jpg"
+      },
+      {
+        "id": "Cable_Reverse_Crunch",
+        "name_zh": "绳索反向卷腹",
+        "name_en": "Cable Reverse Crunch",
+        "img": "Cable_Reverse_Crunch/0.jpg"
+      }
+    ]
+  },
+  {
+    "key": "ab_wheel",
+    "name_zh": "健腹轮",
+    "name_en": "Ab Wheel",
+    "bodyPart_zh": "核心",
+    "img": "ab-wheel.png",
+    "desc": "滚动练腹直肌与深层核心，难度高。",
+    "examples": [
+      {
+        "id": "Ab_Roller",
+        "name_zh": "腹肌滚轮",
+        "name_en": "Ab Roller",
+        "img": "Ab_Roller/0.jpg"
+      },
+      {
+        "id": "Barbell_Ab_Rollout",
+        "name_zh": "杠铃腹肌滚轮",
+        "name_en": "Barbell Ab Rollout",
+        "img": "Barbell_Ab_Rollout/0.jpg"
+      },
+      {
+        "id": "Barbell_Ab_Rollout_-_On_Knees",
+        "name_zh": "杠铃腹肌滚轮（膝）",
+        "name_en": "Barbell Ab Rollout - On Knees",
+        "img": "Barbell_Ab_Rollout_-_On_Knees/0.jpg"
+      },
+      {
+        "id": "Barbell_Rollout_from_Bench",
+        "name_zh": "杠铃滚轮卧凳",
+        "name_en": "Barbell Rollout from Bench",
+        "img": "Barbell_Rollout_from_Bench/0.jpg"
+      },
+      {
+        "id": "Conans_Wheel",
+        "name_zh": "柯南巨轮",
+        "name_en": "Conan's Wheel",
+        "img": "Conans_Wheel/0.jpg"
+      },
+      {
+        "id": "Wrist_Roller",
+        "name_zh": "腕滚轮",
+        "name_en": "Wrist Roller",
+        "img": "Wrist_Roller/0.jpg"
+      }
+    ]
+  },
+  {
+    "key": "barbell",
+    "name_zh": "杠铃",
+    "name_en": "Barbell",
+    "bodyPart_zh": "全身",
+    "img": null,
+    "desc": "最基础的自由重量，练深蹲/硬拉/卧推/推举等全身复合动作。",
+    "examples": [
+      {
+        "id": "Anti-Gravity_Press",
+        "name_zh": "抗重力推举",
+        "name_en": "Anti-Gravity Press",
+        "img": "Anti-Gravity_Press/0.jpg"
+      },
+      {
+        "id": "Barbell_Ab_Rollout",
+        "name_zh": "杠铃腹肌滚轮",
+        "name_en": "Barbell Ab Rollout",
+        "img": "Barbell_Ab_Rollout/0.jpg"
+      },
+      {
+        "id": "Barbell_Ab_Rollout_-_On_Knees",
+        "name_zh": "杠铃腹肌滚轮（膝）",
+        "name_en": "Barbell Ab Rollout - On Knees",
+        "img": "Barbell_Ab_Rollout_-_On_Knees/0.jpg"
+      },
+      {
+        "id": "Barbell_Bench_Press_-_Medium_Grip",
+        "name_zh": "杠铃平板卧推（中握距）",
+        "name_en": "Barbell Bench Press - Medium Grip",
+        "img": "Barbell_Bench_Press_-_Medium_Grip/0.jpg"
+      },
+      {
+        "id": "Barbell_Curl",
+        "name_zh": "杠铃弯举",
+        "name_en": "Barbell Curl",
+        "img": "Barbell_Curl/0.jpg"
+      },
+      {
+        "id": "Barbell_Curls_Lying_Against_An_Incline",
+        "name_zh": "杠铃弯举仰卧抵住上斜",
+        "name_en": "Barbell Curls Lying Against An Incline",
+        "img": "Barbell_Curls_Lying_Against_An_Incline/0.jpg"
+      }
+    ]
+  },
+  {
+    "key": "dumbbell",
+    "name_zh": "哑铃",
+    "name_en": "Dumbbell",
+    "bodyPart_zh": "全身",
+    "img": null,
+    "desc": "灵活的自由重量，可练全身，左右不平衡也能纠正。",
+    "examples": [
+      {
+        "id": "Alternate_Hammer_Curl",
+        "name_zh": "交替锤式弯举",
+        "name_en": "Alternate Hammer Curl",
+        "img": "Alternate_Hammer_Curl/0.jpg"
+      },
+      {
+        "id": "Alternate_Incline_Dumbbell_Curl",
+        "name_zh": "交替上斜哑铃弯举",
+        "name_en": "Alternate Incline Dumbbell Curl",
+        "img": "Alternate_Incline_Dumbbell_Curl/0.jpg"
+      },
+      {
+        "id": "Alternating_Deltoid_Raise",
+        "name_zh": "交替三角肌上举",
+        "name_en": "Alternating Deltoid Raise",
+        "img": "Alternating_Deltoid_Raise/0.jpg"
+      },
+      {
+        "id": "Arnold_Dumbbell_Press",
+        "name_zh": "阿诺德推举",
+        "name_en": "Arnold Dumbbell Press",
+        "img": "Arnold_Dumbbell_Press/0.jpg"
+      },
+      {
+        "id": "Around_The_Worlds",
+        "name_zh": "绕环飞鸟",
+        "name_en": "Around The Worlds",
+        "img": "Around_The_Worlds/0.jpg"
+      },
+      {
+        "id": "Bent-Arm_Dumbbell_Pullover",
+        "name_zh": "俯身手臂哑铃直臂下拉（卧姿上拉）",
+        "name_en": "Bent-Arm Dumbbell Pullover",
+        "img": "Bent-Arm_Dumbbell_Pullover/0.jpg"
+      }
+    ]
+  },
+  {
+    "key": "kettlebell",
+    "name_zh": "壶铃",
+    "name_en": "Kettlebell",
+    "bodyPart_zh": "全身",
+    "img": null,
+    "desc": "摆荡/抓举等爆发动作，兼顾力量与心肺。",
+    "examples": [
+      {
+        "id": "Advanced_Kettlebell_Windmill",
+        "name_zh": "进阶壶铃风车式",
+        "name_en": "Advanced Kettlebell Windmill",
+        "img": "Advanced_Kettlebell_Windmill/0.jpg"
+      },
+      {
+        "id": "Alternating_Floor_Press",
+        "name_zh": "交替地面推举",
+        "name_en": "Alternating Floor Press",
+        "img": "Alternating_Floor_Press/0.jpg"
+      },
+      {
+        "id": "Alternating_Hang_Clean",
+        "name_zh": "交替悬垂翻",
+        "name_en": "Alternating Hang Clean",
+        "img": "Alternating_Hang_Clean/0.jpg"
+      },
+      {
+        "id": "Alternating_Kettlebell_Press",
+        "name_zh": "交替壶铃推举",
+        "name_en": "Alternating Kettlebell Press",
+        "img": "Alternating_Kettlebell_Press/0.jpg"
+      },
+      {
+        "id": "Alternating_Kettlebell_Row",
+        "name_zh": "交替壶铃划船",
+        "name_en": "Alternating Kettlebell Row",
+        "img": "Alternating_Kettlebell_Row/0.jpg"
+      },
+      {
+        "id": "Alternating_Renegade_Row",
+        "name_zh": "交替平板划船",
+        "name_en": "Alternating Renegade Row",
+        "img": "Alternating_Renegade_Row/0.jpg"
+      }
+    ]
+  },
+  {
+    "key": "bands",
+    "name_zh": "弹力带",
+    "name_en": "Resistance Bands",
+    "bodyPart_zh": "全身",
+    "img": null,
+    "desc": "便携阻力训练，适合热身、康复与居家。",
+    "examples": [
+      {
+        "id": "Back_Flyes_-_With_Bands",
+        "name_zh": "背飞鸟（弹力带）",
+        "name_en": "Back Flyes - With Bands",
+        "img": "Back_Flyes_-_With_Bands/0.jpg"
+      },
+      {
+        "id": "Band_Good_Morning",
+        "name_zh": "弹力带早安式体前屈",
+        "name_en": "Band Good Morning",
+        "img": "Band_Good_Morning/0.jpg"
+      },
+      {
+        "id": "Band_Good_Morning_Pull_Through",
+        "name_zh": "弹力带早安式体前屈（拉）",
+        "name_en": "Band Good Morning (Pull Through)",
+        "img": "Band_Good_Morning_Pull_Through/0.jpg"
+      },
+      {
+        "id": "Band_Hip_Adductions",
+        "name_zh": "弹力带髋内收",
+        "name_en": "Band Hip Adductions",
+        "img": "Band_Hip_Adductions/0.jpg"
+      },
+      {
+        "id": "Band_Pull_Apart",
+        "name_zh": "弹力带拉分立",
+        "name_en": "Band Pull Apart",
+        "img": "Band_Pull_Apart/0.jpg"
+      },
+      {
+        "id": "Band_Skull_Crusher",
+        "name_zh": "弹力带碎颅式臂屈伸",
+        "name_en": "Band Skull Crusher",
+        "img": "Band_Skull_Crusher/0.jpg"
+      }
+    ]
+  },
+  {
+    "key": "body",
+    "name_zh": "徒手",
+    "name_en": "Bodyweight",
+    "bodyPart_zh": "全身",
+    "img": null,
+    "desc": "靠自身体重训练，俯卧撑/引体/深蹲皆属此类。",
+    "examples": [
+      {
+        "id": "3_4_Sit-Up",
+        "name_zh": "34仰卧起坐",
+        "name_en": "3/4 Sit-Up",
+        "img": "3_4_Sit-Up/0.jpg"
+      },
+      {
+        "id": "90_90_Hamstring",
+        "name_zh": "90腘绳肌拉伸",
+        "name_en": "90/90 Hamstring",
+        "img": "90_90_Hamstring/0.jpg"
+      },
+      {
+        "id": "Air_Bike",
+        "name_zh": "徒手单车",
+        "name_en": "Air Bike",
+        "img": "Air_Bike/0.jpg"
+      },
+      {
+        "id": "All_Fours_Quad_Stretch",
+        "name_zh": "四足跪姿股四头肌拉伸",
+        "name_en": "All Fours Quad Stretch",
+        "img": "All_Fours_Quad_Stretch/0.jpg"
+      },
+      {
+        "id": "Alternate_Heel_Touchers",
+        "name_zh": "交替仰卧触踵",
+        "name_en": "Alternate Heel Touchers",
+        "img": "Alternate_Heel_Touchers/0.jpg"
+      },
+      {
+        "id": "Bench_Dips",
+        "name_zh": "凳上反屈伸",
+        "name_en": "Bench Dips",
+        "img": "Bench_Dips/0.jpg"
+      }
+    ]
+  }
+]
