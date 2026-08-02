@@ -9,6 +9,13 @@
 - **主要**：三角肌
 - **协同**：—
 
+
+## 肌肉激活示意
+
+![肌肉激活示意](../../assets/muscle/Bent_Over_Dumbbell_Rear_Delt_Raise_With_Head_On_Bench.svg)
+
+<sub>🔴 主要肌群　🟠 协同肌群（红/橙块即发力部位，鼠标悬停看名称）</sub>
+
 ## 动作示意图
 
 | 起始位 | 结束位 |

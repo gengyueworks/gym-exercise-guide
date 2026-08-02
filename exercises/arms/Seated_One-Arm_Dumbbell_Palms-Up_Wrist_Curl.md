@@ -9,6 +9,13 @@
 - **主要**：前臂
 - **协同**：—
 
+
+## 肌肉激活示意
+
+![肌肉激活示意](../../assets/muscle/Seated_One-Arm_Dumbbell_Palms-Up_Wrist_Curl.svg)
+
+<sub>🔴 主要肌群　🟠 协同肌群（红/橙块即发力部位，鼠标悬停看名称）</sub>
+
 ## 动作示意图
 
 | 起始位 | 结束位 |
