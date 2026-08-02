@@ -13,7 +13,7 @@
 
 | 起始位 | 结束位 |
 |:---:|:---:|
-| <img src="../../assets/exercises/Elliptical_Trainer/0.jpg" width="360"> | <img src="../../assets/exercises/Elliptical_Trainer/1.jpg" width="360"> |
+| <img src="https://cdn.jsdelivr.net/gh/gengyueworks/gym-exercise-guide@main/assets/exercises/Elliptical_Trainer/0.jpg" width="360"> | <img src="https://cdn.jsdelivr.net/gh/gengyueworks/gym-exercise-guide@main/assets/exercises/Elliptical_Trainer/1.jpg" width="360"> |
 
 ## 动作要点
 
