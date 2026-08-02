@@ -13,7 +13,7 @@
 
 | 起始位 | 结束位 |
 |:---:|:---:|
-| <img src="../../assets/exercises/Push-Ups_With_Feet_Elevated/0.jpg" width="360"> | <img src="../../assets/exercises/Push-Ups_With_Feet_Elevated/1.jpg" width="360"> |
+| <img src="https://cdn.jsdelivr.net/gh/gengyueworks/gym-exercise-guide@main/assets/exercises/Push-Ups_With_Feet_Elevated/0.jpg" width="360"> | <img src="https://cdn.jsdelivr.net/gh/gengyueworks/gym-exercise-guide@main/assets/exercises/Push-Ups_With_Feet_Elevated/1.jpg" width="360"> |
 
 ## 动作要点
 
