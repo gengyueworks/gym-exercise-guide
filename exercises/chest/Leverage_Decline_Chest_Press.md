@@ -20,7 +20,7 @@
 
 | 起始位 | 结束位 |
 |:---:|:---:|
-| <img src="https://cdn.jsdelivr.net/gh/gengyueworks/gym-exercise-guide@main/assets/exercises/Leverage_Decline_Chest_Press/0.jpg" width="360"> | <img src="https://cdn.jsdelivr.net/gh/gengyueworks/gym-exercise-guide@main/assets/exercises/Leverage_Decline_Chest_Press/1.jpg" width="360"> |
+| <img src="../../assets/exercises/Leverage_Decline_Chest_Press/0.jpg" width="360"> | <img src="../../assets/exercises/Leverage_Decline_Chest_Press/1.jpg" width="360"> |
 
 ## 动作要点
 
