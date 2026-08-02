@@ -13,7 +13,7 @@
 
 | 起始位 | 结束位 |
 |:---:|:---:|
-| <img src="../../assets/exercises/Hyperextensions_With_No_Hyperextension_Bench/0.jpg" width="360"> | <img src="../../assets/exercises/Hyperextensions_With_No_Hyperextension_Bench/1.jpg" width="360"> |
+| <img src="https://cdn.jsdelivr.net/gh/gengyueworks/gym-exercise-guide@main/assets/exercises/Hyperextensions_With_No_Hyperextension_Bench/0.jpg" width="360"> | <img src="https://cdn.jsdelivr.net/gh/gengyueworks/gym-exercise-guide@main/assets/exercises/Hyperextensions_With_No_Hyperextension_Bench/1.jpg" width="360"> |
 
 ## 动作要点
 
