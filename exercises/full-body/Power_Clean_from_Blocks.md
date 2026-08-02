@@ -13,7 +13,7 @@
 
 | 起始位 | 结束位 |
 |:---:|:---:|
-| <img src="../../assets/exercises/Power_Clean_from_Blocks/0.jpg" width="360"> | <img src="../../assets/exercises/Power_Clean_from_Blocks/1.jpg" width="360"> |
+| <img src="https://cdn.jsdelivr.net/gh/gengyueworks/gym-exercise-guide@main/assets/exercises/Power_Clean_from_Blocks/0.jpg" width="360"> | <img src="https://cdn.jsdelivr.net/gh/gengyueworks/gym-exercise-guide@main/assets/exercises/Power_Clean_from_Blocks/1.jpg" width="360"> |
 
 ## 动作要点
 
