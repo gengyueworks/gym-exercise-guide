@@ -1,6 +1,7 @@
 # 按器械查动作 / By Equipment
 
 在健身房看到一台器械不知道能干嘛？从这里找。
+*See a machine at the gym but don't know what it's for? Start here.*
 
 | 器械 | Equipment | 动作数 |
 |---|---|:---:|

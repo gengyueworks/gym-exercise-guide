@@ -1,6 +1,7 @@
 # 按肌群查动作 / By Muscle
 
 想专门练某一块肌肉？按主要发力肌群查。
+*Want to train a specific muscle? Browse by primary muscle.*
 
 | 肌群 | Muscle | 动作数 |
 |---|---|:---:|

@@ -1,5 +1,7 @@
 # 按难度查动作 / By Level
 
+*Pick exercises that match your experience level.*
+
 - [⭐ 新手（523）](#新手)
 - [⭐⭐ 进阶（293）](#进阶)
 - [⭐⭐⭐ 高手（57）](#高手)

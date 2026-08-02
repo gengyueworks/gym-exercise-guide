@@ -1,6 +1,7 @@
 # 新手入门推荐 / For Beginners
 
 第一次进健身房，不知道从哪开始？先把下面这些练熟。
+*New to the gym and don't know where to start? Master these first.*
 
 选择标准：难度为「新手」、动作模式基础、器械常见、不容易受伤。
 

@@ -6,6 +6,12 @@
 >
 > 所以我自己做了这个库。873 个动作，按部位分类，每个动作配示意图加中文步骤。打开就能查，查完就能练。不用翻三个 App，不用看广告。
 
+> *I walked into the gym and didn't know how to use the machines. There are seven or eight leg machines, each training a different muscle, and no one told me which was which.*
+>
+> *I searched online again and again — a 30-second clip on Douyin, a long theory post on Zhihu, a screenshot with three lines on Xiaohongshu. I bookmarked a pile but still didn't know what to train. The worst part is fragmented information: a little from each platform that never adds up to a complete picture.*
+>
+> *So I built this library myself. 873 exercises, sorted by body part, each with demonstration images and Chinese step-by-step cues. Open it, look it up, train. No hopping between three apps, no ads.*
+
 ---
 
 **873 个动作 · 7 大部位 · 中英双语 · 1746 张动作示意图 · 全部开源**
@@ -27,29 +33,30 @@
 
 ## 换个方式找动作 / Other Indexes
 
-- [按器械查](indexes/by-equipment.md) — 杠铃 / 哑铃 / 绳索 / 固定器械 / 自重 / 壶铃…
-- [按难度查](indexes/by-level.md) — 新手 / 进阶 / 高手
-- [按肌群查](indexes/by-muscle.md) — 17 个具体肌群
-- [新手入门推荐](indexes/beginner.md) — 不知道从哪开始就看这个
+- [按器械查 By equipment](indexes/by-equipment.md) — 杠铃 / 哑铃 / 绳索 / 固定器械 / 自重 / 壶铃… (barbell / dumbbell / cable / machine / bodyweight / kettlebell…)
+- [按难度查 By level](indexes/by-level.md) — 新手 / 进阶 / 高手 (beginner / intermediate / advanced)
+- [按肌群查 By muscle](indexes/by-muscle.md) — 17 个具体肌群 (17 specific muscles)
+- [新手入门推荐 For beginners](indexes/beginner.md) — 不知道从哪开始就看这个 (start here if unsure)
 
-## 每个动作页面包含什么
+## 每个动作页面包含什么 / What's on each exercise page
 
-- **中英文名称** — 中文名按国内健身房通用叫法翻译
-- **目标肌群** — 主要肌群 + 协同肌群，中文标注
-- **动作示意图** — 起始位 / 结束位两张图
-- **动作要点** — 中文分步说明，含呼吸节奏
-- **常见错误** — ❌ 错误做法 + ✅ 正确做法
-- **训练建议** — 组数次数与休息时间
-- **英文原文** — 可展开对照原始英文步骤
+- **中英文名称 Bilingual name** — 中文名按国内健身房通用叫法翻译 (Chinese names follow common gym usage)
+- **目标肌群 Target muscles** — 主要肌群 + 协同肌群，中文标注 (primary + secondary, labeled in Chinese)
+- **动作示意图 Demonstration images** — 起始位 / 结束位两张图 (start / end poses)
+- **动作要点 Cues** — 中文分步说明，含呼吸节奏 (step-by-step Chinese cues with breathing)
+- **常见错误 Common mistakes** — ❌ 错误做法 + ✅ 正确做法
+- **训练建议 Training tips** — 组数次数与休息时间 (sets, reps, rest)
+- **英文原文 Original English** — 可展开对照原始英文步骤 (expandable)
 
 ## 怎么用 / How to use
 
-1. 按部位点进去 —— 今天练胸就点胸
-2. 在索引表里按器械或难度找到动作
-3. 看示意图 + 读要点，重点看「常见错误」
-4. 练
+1. 按部位点进去 —— 今天练胸就点胸 / Pick a body part (e.g. chest for chest day)
+2. 在索引表里按器械或难度找到动作 / Or browse indexes by equipment or level
+3. 看示意图 + 读要点，重点看「常见错误」/ Read cues, watch for "common mistakes"
+4. 练 / Train
 
 手机上直接用 GitHub 网页版打开就行，图片和表格都能正常显示。
+*Works on GitHub mobile web — images and tables render fine.*
 
 ## 数据来源与版权 / Data Source & License
 
@@ -68,6 +75,8 @@ Exercise data and demonstration images come from [yuhonas/free-exercise-db](http
 ### 一句话说明
 
 > 原始数据是公有领域的，我做的是中文化和重新组织，我也把它放回公有领域。
+>
+> *The raw data is public domain. I added the Chinese translation and reorganized it — and I'm releasing it back into the public domain.*
 
 ## 关于内容的说明 / A note on content
 
