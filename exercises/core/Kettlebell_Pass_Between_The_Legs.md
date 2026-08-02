@@ -13,7 +13,7 @@
 
 | 起始位 | 结束位 |
 |:---:|:---:|
-| <img src="../../assets/exercises/Kettlebell_Pass_Between_The_Legs/0.jpg" width="360"> | <img src="../../assets/exercises/Kettlebell_Pass_Between_The_Legs/1.jpg" width="360"> |
+| <img src="https://cdn.jsdelivr.net/gh/gengyueworks/gym-exercise-guide@main/assets/exercises/Kettlebell_Pass_Between_The_Legs/0.jpg" width="360"> | <img src="https://cdn.jsdelivr.net/gh/gengyueworks/gym-exercise-guide@main/assets/exercises/Kettlebell_Pass_Between_The_Legs/1.jpg" width="360"> |
 
 ## 动作要点
 
