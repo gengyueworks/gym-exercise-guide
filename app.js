@@ -88,12 +88,28 @@ function renderDetail(id){
     <div class="imgs">${imgs}</div>
     <div class="section-title">目标肌群</div>
     <div><span class="badge">主要：${prim}</span>${sec!=='—'?`<span class="badge">协同：${sec}</span>`:''}</div>
+    ${window.muscleMapHTML(e.primaryMuscles, e.secondaryMuscles)}
+    ${equipLine(e)}
     <div class="section-title">动作要点</div><ul>${cues}</ul>
     <div class="section-title">常见错误</div><ul>${mis}</ul>
     <div class="tip">训练建议：${tips}</div>
     <details><summary>英文原始步骤（对照）</summary><div style="line-height:1.6">${((e.instructions_en)||[]).join('<br>')}</div></details>
   </div>`;
   document.body.appendChild(ov);
+}
+
+function equipLine(e){
+  const eq = e.equipment_zh || '徒手';
+  let img = '';
+  for (const c of (EQ || [])){
+    const same = c.eq && (e.equipment || '').toLowerCase() === c.eq;
+    const kw = (c.examples || []).some(x => x.id === e.id);
+    if (same || kw){ if (c.img) img = c.img; break; }
+  }
+  const thumb = img ? `<img class="equip-thumb" src="assets/equipment/${img}" onerror="this.style.display='none'">` : '';
+  return `<div class="section-title">使用器械</div>
+    <div class="equip-line">${thumb}<span class="badge">${eq}</span>
+    <span class="hint">（更多器械见顶部「器械图鉴」）</span></div>`;
 }
 
 function tip(e){
