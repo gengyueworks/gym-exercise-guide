@@ -13,7 +13,7 @@
 
 | 起始位 | 结束位 |
 |:---:|:---:|
-| <img src="../../assets/exercises/Incline_Dumbbell_Flyes_-_With_A_Twist/0.jpg" width="360"> | <img src="../../assets/exercises/Incline_Dumbbell_Flyes_-_With_A_Twist/1.jpg" width="360"> |
+| <img src="https://cdn.jsdelivr.net/gh/gengyueworks/gym-exercise-guide@main/assets/exercises/Incline_Dumbbell_Flyes_-_With_A_Twist/0.jpg" width="360"> | <img src="https://cdn.jsdelivr.net/gh/gengyueworks/gym-exercise-guide@main/assets/exercises/Incline_Dumbbell_Flyes_-_With_A_Twist/1.jpg" width="360"> |
 
 ## 动作要点
 
