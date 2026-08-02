@@ -1,0 +1,49 @@
+# 颈泡沫轴放松
+
+**Neck-SMR**
+
+> 部位：全身　|　器械：其他　|　难度：⭐⭐ 进阶　|　类型：拉伸放松 · — · 静态支撑
+
+## 目标肌群
+
+- **主要**：颈部
+- **协同**：—
+
+## 动作示意图
+
+| 起始位 | 结束位 |
+|:---:|:---:|
+| <img src="../../assets/exercises/Neck-SMR/0.jpg" width="360"> | <img src="../../assets/exercises/Neck-SMR/1.jpg" width="360"> |
+
+## 动作要点
+
+1. 把泡沫轴放在目标区域下方，用身体重量控制压力大小。
+2. 缓慢滚动，速度约每秒 2–3 厘米，不要来回快搓。
+3. 找到明显酸痛的「激痛点」时停下来，在该点静压 20–30 秒。
+4. 静压时保持深呼吸，感受肌肉逐渐放松下来。
+5. 每个部位 1–2 分钟即可，训练前后都可以做。
+
+## 常见错误
+
+- ❌ 快速来回滚 → 肌肉来不及放松
+- ❌ 直接压在关节或骨突上 → 疼痛且无效
+- ❌ 疼到憋气咬牙 → 压力过大，应减轻体重占比
+- ✅ 慢速滚动、痛点静压、配合深呼吸
+
+## 训练建议
+
+每侧 2–3 组，每组静态保持 20–30 秒；训练后做效果最好。
+
+<details>
+<summary><b>英文原始步骤 / Original Instructions</b>（点击展开）</summary>
+
+1. Using a muscle roller or a rolling pin, place the roller behind your head and against your neck. Make sure that you do not place the roller directly against the spine, but turned slightly so that the roller is pressed against the muscles to either side of the spine. This will be your starting position.
+2. Starting at the top of your neck, slowly roll down the muscles of your neck, pausing at points of tension for 10-30 seconds.
+
+</details>
+
+---
+
+[← 返回全身部位索引](README.md)　|　[返回首页](../../README.md)
+
+<sub>数据与图片来源：[yuhonas/free-exercise-db](https://github.com/yuhonas/free-exercise-db)（The Unlicense，公有领域）　·　中文名称、动作要点与内容组织：Yue（gengyueworks）</sub>
