@@ -1,0 +1,53 @@
+# 单臂侧向侧平举
+
+**One-Arm Side Laterals**
+
+> 部位：肩　|　器械：哑铃　|　难度：⭐ 新手　|　类型：力量训练 · 孤立动作 · 推
+
+## 目标肌群
+
+- **主要**：三角肌
+- **协同**：—
+
+## 动作示意图
+
+| 起始位 | 结束位 |
+|:---:|:---:|
+| <img src="../../assets/exercises/One-Arm_Side_Laterals/0.jpg" width="360"> | <img src="../../assets/exercises/One-Arm_Side_Laterals/1.jpg" width="360"> |
+
+## 动作要点
+
+1. 持哑铃置于身体两侧，手肘保持微屈，肩膀主动下沉。
+2. 呼气，用肩部带动手臂向侧上方抬起，想象「用手肘领着走」。
+3. 抬到与肩同高即可，再高就变成斜方肌发力了。
+4. 顶端停顿半秒，吸气用 2–3 秒缓慢下放，离心才是涨点。
+5. 全程小重量、不借力，三角肌有灼烧感就对了。
+
+## 常见错误
+
+- ❌ 耸肩、用斜方肌把重量甩起来 → 练错肌肉
+- ❌ 上半身前后晃动借力 → 重量选大了
+- ❌ 抬过肩高 → 三角肌中束卸力
+- ✅ 沉肩、肘领先、抬到肩高、慢放
+
+## 训练建议
+
+3–4 组 × 10–15 次，组间休息 45–75 秒；小重量找目标肌群的收缩感。
+
+<details>
+<summary><b>英文原始步骤 / Original Instructions</b>（点击展开）</summary>
+
+1. Pick a dumbbell and place it in one of your hands. Your non lifting hand should be used to grab something steady such as an incline bench press. Lean towards your lifting arm and away from the hand that is gripping the incline bench as this will allow you to keep your balance.
+2. Stand with a straight torso and have the dumbbell by your side at arm's length with the palm of the hand facing you. This will be your starting position.
+3. While maintaining the torso stationary (no swinging), lift the dumbbell to your side with a slight bend on the elbow and your hand slightly tilted forward as if pouring water in a glass. Continue to go up until you arm is parallel to the floor. Exhale as you execute this movement and pause for a second at the top.
+4. Lower the dumbbell back down slowly to the starting position as you inhale.
+5. Repeat for the recommended amount of repetitions.
+6. Switch arms and repeat the exercise.
+
+</details>
+
+---
+
+[← 返回肩部位索引](README.md)　|　[返回首页](../../README.md)
+
+<sub>数据与图片来源：[yuhonas/free-exercise-db](https://github.com/yuhonas/free-exercise-db)（The Unlicense，公有领域）　·　中文名称、动作要点与内容组织：Yue（gengyueworks）</sub>
