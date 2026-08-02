@@ -20,7 +20,7 @@
 
 | 起始位 | 结束位 |
 |:---:|:---:|
-| <img src="https://cdn.jsdelivr.net/gh/gengyueworks/gym-exercise-guide@main/assets/exercises/Bent_Over_One-Arm_Long_Bar_Row/0.jpg" width="360"> | <img src="https://cdn.jsdelivr.net/gh/gengyueworks/gym-exercise-guide@main/assets/exercises/Bent_Over_One-Arm_Long_Bar_Row/1.jpg" width="360"> |
+| <img src="../../assets/exercises/Bent_Over_One-Arm_Long_Bar_Row/0.jpg" width="360"> | <img src="../../assets/exercises/Bent_Over_One-Arm_Long_Bar_Row/1.jpg" width="360"> |
 
 ## 动作要点
 

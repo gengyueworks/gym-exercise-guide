@@ -20,7 +20,7 @@
 
 | 起始位 | 结束位 |
 |:---:|:---:|
-| <img src="https://cdn.jsdelivr.net/gh/gengyueworks/gym-exercise-guide@main/assets/exercises/Decline_Close-Grip_Bench_To_Skull_Crusher/0.jpg" width="360"> | <img src="https://cdn.jsdelivr.net/gh/gengyueworks/gym-exercise-guide@main/assets/exercises/Decline_Close-Grip_Bench_To_Skull_Crusher/1.jpg" width="360"> |
+| <img src="../../assets/exercises/Decline_Close-Grip_Bench_To_Skull_Crusher/0.jpg" width="360"> | <img src="../../assets/exercises/Decline_Close-Grip_Bench_To_Skull_Crusher/1.jpg" width="360"> |
 
 ## 动作要点
 
