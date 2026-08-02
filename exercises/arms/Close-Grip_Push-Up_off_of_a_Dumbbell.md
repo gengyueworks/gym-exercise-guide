@@ -13,7 +13,7 @@
 
 | 起始位 | 结束位 |
 |:---:|:---:|
-| <img src="../../assets/exercises/Close-Grip_Push-Up_off_of_a_Dumbbell/0.jpg" width="360"> | <img src="../../assets/exercises/Close-Grip_Push-Up_off_of_a_Dumbbell/1.jpg" width="360"> |
+| <img src="https://cdn.jsdelivr.net/gh/gengyueworks/gym-exercise-guide@main/assets/exercises/Close-Grip_Push-Up_off_of_a_Dumbbell/0.jpg" width="360"> | <img src="https://cdn.jsdelivr.net/gh/gengyueworks/gym-exercise-guide@main/assets/exercises/Close-Grip_Push-Up_off_of_a_Dumbbell/1.jpg" width="360"> |
 
 ## 动作要点
 
