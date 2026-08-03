@@ -18,9 +18,10 @@
 
 ## 动作示意图
 
-| 起始位 | 结束位 |
-|:---:|:---:|
-| <img src="../../assets/exercises/Standing_Military_Press/0.jpg" width="360"> | <img src="../../assets/exercises/Standing_Military_Press/1.jpg" width="360"> |
+|  | 起始位 | 结束位 |
+|:---:|:---:|:---:|
+| **男性** | <img src="../../assets/exercises/Standing_Military_Press/0.jpg" width="300"> | <img src="../../assets/exercises/Standing_Military_Press/2.jpg" width="300"> |
+| **女性** | <img src="../../assets/exercises/Standing_Military_Press/1.jpg" width="300"> | <img src="../../assets/exercises/Standing_Military_Press/3.jpg" width="300"> |
 
 ## 动作要点
 

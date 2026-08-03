@@ -18,9 +18,10 @@
 
 ## 动作示意图
 
-| 起始位 | 结束位 |
-|:---:|:---:|
-| <img src="../../assets/exercises/Bent_Over_Barbell_Row/0.jpg" width="360"> | <img src="../../assets/exercises/Bent_Over_Barbell_Row/1.jpg" width="360"> |
+|  | 起始位 | 结束位 |
+|:---:|:---:|:---:|
+| **男性** | <img src="../../assets/exercises/Bent_Over_Barbell_Row/0.jpg" width="300"> | <img src="../../assets/exercises/Bent_Over_Barbell_Row/2.jpg" width="300"> |
+| **女性** | <img src="../../assets/exercises/Bent_Over_Barbell_Row/1.jpg" width="300"> | <img src="../../assets/exercises/Bent_Over_Barbell_Row/3.jpg" width="300"> |
 
 ## 动作要点
 
