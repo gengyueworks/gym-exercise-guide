@@ -18,9 +18,10 @@
 
 ## 动作示意图
 
-| 起始位 | 结束位 |
-|:---:|:---:|
-| <img src="../../assets/exercises/Barbell_Curl/0.jpg" width="360"> | <img src="../../assets/exercises/Barbell_Curl/1.jpg" width="360"> |
+|  | 起始位 | 结束位 |
+|:---:|:---:|:---:|
+| **男性** | <img src="../../assets/exercises/Barbell_Curl/0.jpg" width="300"> | <img src="../../assets/exercises/Barbell_Curl/2.jpg" width="300"> |
+| **女性** | <img src="../../assets/exercises/Barbell_Curl/1.jpg" width="300"> | <img src="../../assets/exercises/Barbell_Curl/3.jpg" width="300"> |
 
 ## 动作要点
 
