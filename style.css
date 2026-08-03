@@ -58,11 +58,65 @@ footer{text-align:center;color:var(--muted);font-size:12px;padding:22px}
 .m.primary{fill:#e23b3b;stroke:#9f1d1d}
 .m.sec{fill:#f5a623;stroke:#c47f10}
 .skin{fill:#e9c9a8;stroke:#d8b48f;stroke-width:1}
-.muscle-legend{text-align:center;font-size:12px;color:var(--muted);margin-top:2px}
 .muscle-svg-img{display:block;margin:10px auto;max-width:300px;width:100%;height:auto;border-radius:12px;background:#fff;box-shadow:0 1px 4px rgba(0,0,0,.08)}
-.dot{display:inline-block;width:10px;height:10px;border-radius:50%;margin:0 2px 0 8px;vertical-align:middle}
-.dot.red{background:#e23b3b}
-.dot.orange{background:#f5a623}
-.muscle-legend .hint{margin-left:6px}
 .equip-line{display:flex;align-items:center;gap:8px;margin:4px 0 2px;flex-wrap:wrap}
 .equip-thumb{width:46px;height:46px;object-fit:cover;border-radius:8px;border:1px solid #eef0f3;background:#f4f5f7}
+
+/* ---------- 分类首页 ---------- */
+.hero{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px;margin:4px 0 2px}
+.hero-t{font-size:16px;font-weight:700}
+.hero-s{font-size:12.5px;color:var(--muted);margin-top:4px}
+.st-sub{font-size:12px;font-weight:400;color:var(--muted);margin-left:6px}
+.tilerow{display:grid;grid-template-columns:repeat(auto-fill,minmax(128px,1fr));gap:10px;padding:6px 0 2px}
+.tile{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px;cursor:pointer;transition:transform .12s,box-shadow .12s,border-color .12s}
+.tile:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(0,0,0,.09);border-color:var(--accent)}
+.tile-n{font-size:14px;font-weight:600}
+.tile-c{font-size:12px;color:var(--muted);margin-top:3px}
+.tile.lv0{border-left:3px solid #34a853}
+.tile.lv1{border-left:3px solid #f5a623}
+.tile.lv2{border-left:3px solid #e8523f}
+.allbtn{margin:18px 0 40px;padding:13px;text-align:center;background:var(--card);border:1px dashed var(--line);border-radius:12px;cursor:pointer;font-size:14px;font-weight:600;color:var(--accent)}
+.allbtn:hover{border-color:var(--accent);background:#fff7f5}
+
+/* ---------- 面包屑 ---------- */
+.crumb{font-size:12.5px;color:var(--muted);padding:2px 0 8px;display:flex;gap:6px;flex-wrap:wrap;align-items:center}
+.crumb a{color:var(--accent);cursor:pointer;text-decoration:none}
+.crumb a:hover{text-decoration:underline}
+
+/* ---------- 筛选栏 ---------- */
+.fbar{background:var(--card);border:1px solid var(--line);border-radius:12px;margin-bottom:6px;overflow:hidden}
+.fhead{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:10px 12px;flex-wrap:wrap}
+.fcount{font-size:13px;color:var(--muted)}
+.fcount b{font-size:17px;color:var(--text);margin-right:2px}
+.fright{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.sortsel{border:1px solid var(--line);border-radius:8px;padding:5px 8px;font-size:12.5px;background:var(--card);color:var(--text);cursor:pointer;outline:none}
+.linkbtn{font-size:12.5px;color:var(--accent);cursor:pointer;user-select:none}
+.linkbtn:hover{text-decoration:underline}
+.fbody{border-top:1px solid var(--line);padding:4px 12px 10px}
+.frow{display:flex;gap:10px;padding:7px 0;align-items:flex-start;border-bottom:1px dashed #f0f2f4}
+.frow:last-child{border-bottom:none}
+.flabel{flex:0 0 34px;font-size:12.5px;color:var(--muted);padding-top:5px}
+.fchips{display:flex;gap:6px;flex-wrap:wrap;flex:1}
+.chip{display:inline-flex;align-items:center;gap:4px;padding:4px 10px;border:1px solid var(--line);border-radius:999px;background:var(--bg);font-size:12.5px;cursor:pointer;user-select:none;transition:background .12s,border-color .12s,color .12s}
+.chip:hover{border-color:var(--accent);color:var(--accent)}
+.chip.on{background:var(--accent);border-color:var(--accent);color:#fff}
+.chip i{font-style:normal;font-size:11px;opacity:.6}
+.chip.on i{opacity:.85}
+.chip.zero{opacity:.35}
+
+/* ---------- 列表状态 ---------- */
+.empty{text-align:center;color:var(--muted);font-size:14px;padding:44px 12px;line-height:2}
+.morebtn{margin:0 0 40px;padding:13px;text-align:center;background:var(--card);border:1px solid var(--line);border-radius:12px;cursor:pointer;font-size:14px;font-weight:600}
+.morebtn:hover{border-color:var(--accent);color:var(--accent)}
+.card.nolink{cursor:default}
+.card.nolink:hover{transform:none;box-shadow:none}
+.badge.tapb{cursor:pointer;transition:background .12s,color .12s}
+.badge.tapb:hover{background:var(--accent);color:#fff}
+
+@media(max-width:520px){
+  .flabel{flex:0 0 30px;font-size:12px}
+  .chip{padding:4px 9px;font-size:12px}
+  .tilerow{grid-template-columns:repeat(auto-fill,minmax(104px,1fr))}
+  .fhead{padding:9px 10px}
+  .fbody{padding:2px 10px 8px}
+}
