@@ -28,6 +28,95 @@ const EQ_GROUPS = [
 ];
 const EQ_NAME = Object.fromEntries(EQ_GROUPS.map(g => [g.key, g.name]));
 
+/* ---------------- 器械图鉴：分组 / 封面 / 动作匹配 ---------------- */
+// 23 个器械按「上手场景」分区，避免一屏平铺看着都一样
+const EQ_SECTIONS = [
+  { title: '自由重量 & 徒手', sub: '哪儿都能练，先从这些入门', keys: ['body', 'barbell', 'dumbbell', 'kettlebell', 'bands'] },
+  { title: '腿部器械', sub: '轨迹固定，练腿最安全', keys: ['leg_press', 'leg_ext', 'leg_curl', 'hip_adb', 'calf'] },
+  { title: '胸背器械', sub: '推与拉的两大主力', keys: ['chest_press', 'pec_deck', 'lat_pulldown', 'seated_row'] },
+  { title: '肩臂器械', sub: '孤立发力，练细节', keys: ['shoulder_press_m', 'lateral_raise_m', 'preacher', 'triceps_pushdown'] },
+  { title: '综合 & 核心', sub: '一台顶多台，或专攻腹部', keys: ['smith', 'cable', 'roman_chair', 'ab_crunch', 'ab_wheel'] }
+];
+
+// 没有器械照片的，用一张代表动作的真人图当封面
+const EQ_COVER_EX = {
+  body: 'Pushups', barbell: 'Barbell_Squat', dumbbell: 'Dumbbell_Bicep_Curl',
+  kettlebell: 'One-Arm_Kettlebell_Swings', bands: 'Back_Flyes_-_With_Bands'
+};
+
+// 点开器械后要列出「该器械的全部动作」，而不只是 6 个示例。
+// 大类直接按 equipment 字段取；细分机器用名称关键词捞，再和人工挑的 examples 合并。
+const EQ_BY_FIELD = {
+  body: ['', 'body only'], barbell: ['barbell'], dumbbell: ['dumbbell'],
+  kettlebell: ['kettlebells'], bands: ['bands'], cable: ['cable']
+};
+// 细分机器靠名称关键词捞：kw=命中词，eq=限定 equipment 字段（防止把哑铃飞鸟算进蝴蝶机），no=排除词
+const EQ_SPEC = {
+  leg_press: { kw: ['leg press', '倒蹬', '腿举'], eq: ['machine'], no: ['smith', '史密斯'] },
+  leg_ext: { kw: ['leg extension', '腿屈伸'], eq: ['machine'] },
+  leg_curl: { kw: ['leg curl', '腿弯举'], eq: ['machine', 'exercise ball', 'cable'] },
+  hip_adb: { kw: ['adductor', 'abduction', 'abductor', '髋内收', '髋外展', '大腿内收', '大腿外展'], no: ['拉伸', 'stretch'] },
+  calf: { kw: ['calf raise', '提踵'], eq: ['machine', 'barbell', 'dumbbell', 'body only', ''] },
+  chest_press: { kw: ['chest press', '推胸'], eq: ['machine', 'cable'], no: ['smith', '史密斯'] },
+  pec_deck: { kw: ['pec deck', 'butterfly', '蝴蝶机', '夹胸', 'flyes', '飞鸟'], eq: ['machine', 'cable'], no: ['后束', 'rear', '三角肌'] },
+  lat_pulldown: { kw: ['pulldown', 'pull-down', '下拉'], eq: ['cable', 'machine'] },
+  seated_row: { kw: ['seated cable row', 'cable row', 'machine row', '坐姿划船', '器械划船', '绳索划船', '低位划船'], eq: ['cable', 'machine'] },
+  smith: { kw: ['smith', '史密斯'] },
+  shoulder_press_m: { kw: ['shoulder press', '肩推', '肩上推举', '推举机'], eq: ['machine', 'cable'], no: ['smith', '史密斯'] },
+  lateral_raise_m: { kw: ['lateral raise', '侧平举'], eq: ['machine', 'cable'], no: ['smith', '史密斯'] },
+  preacher: { kw: ['preacher', '牧师'] },
+  triceps_pushdown: { kw: ['pushdown', 'push-down', '下压'], eq: ['cable', 'machine'] },
+  roman_chair: { kw: ['roman chair', 'hyperextension', 'back extension', '罗马椅', '背伸展', '山羊挺身'] },
+  ab_crunch: { kw: ['cable crunch', 'machine crunch', '卷腹机', '器械卷腹', '绳索卷腹'], eq: ['machine', 'cable'] },
+  ab_wheel: { kw: ['ab wheel', 'roller', 'rollout', '滚轮', '健腹轮', '腹肌轮'], no: ['腕', 'wrist'] }
+};
+
+const _eqCache = {};
+function eqExercises(key) {
+  if (_eqCache[key]) return _eqCache[key];
+  const seen = new Set();
+  const out = [];
+  const push = id => { const e = byId[id]; if (e && !seen.has(id)) { seen.add(id); out.push(e); } };
+
+  const cat = (EQ || []).find(c => c.key === key);
+  const fields = EQ_BY_FIELD[key];
+
+  if (fields) {
+    // 大类直接按 equipment 字段取；人工挑的示例排最前（先过滤掉字段对不上的脏数据）
+    (cat && cat.examples || []).forEach(x => {
+      const e = byId[x.id];
+      if (e && fields.includes(e.equipment || '')) push(x.id);
+    });
+    ZH.forEach(e => { if (fields.includes(e.equipment || '')) push(e.id); });
+  } else {
+    // 细分机器：equipment.json 的 examples 有不少串台脏数据（如坐姿划船机里混进蝴蝶机夹胸），
+    // 所以只认名称关键词 + equipment 字段双重命中，捞不到才退回 examples。
+    const s = EQ_SPEC[key];
+    if (s) {
+      const kws = s.kw.map(k => k.toLowerCase());
+      const no = (s.no || []).map(k => k.toLowerCase());
+      ZH.forEach(e => {
+        const blob = ((e.name_zh || '') + ' ' + (e.name_en || '')).toLowerCase();
+        if (!kws.some(k => blob.includes(k))) return;
+        if (no.length && no.some(k => blob.includes(k))) return;
+        if (s.eq && !s.eq.includes(e.equipment || '')) return;
+        push(e.id);
+      });
+    }
+    if (!out.length) (cat && cat.examples || []).forEach(x => push(x.id));
+  }
+  _eqCache[key] = out;
+  return out;
+}
+
+function eqCover(cat) {
+  if (cat.img) return 'assets/equipment/' + cat.img;
+  const rep = EQ_COVER_EX[cat.key];
+  if (rep && byId[rep]) return exImg(byId[rep]);
+  const ex = (cat.examples || [])[0];
+  return ex && ex.img ? 'assets/exercises/' + ex.img : '';
+}
+
 const PART_DESC = {
   '胸': '卧推、飞鸟、双杠臂屈伸',
   '背': '引体、划船、高位下拉',
@@ -44,6 +133,8 @@ const PAGE_SIZE = 60;
 let ZH = [], EQ = [], byId = {};
 let F = { part: '', eq: '', level: '', cat: '', q: '', sort: 'default' };
 let shown = PAGE_SIZE;
+let eqShown = PAGE_SIZE;      // 器械详情页的分页游标
+let curEqKey = null;         // 当前器械详情 key
 let filtersOpen = true;
 let lastBrowseKey = null;   // 筛选条件签名，未变则不重渲染（保住滚动位置与"加载更多"进度）
 let directDetail = false;   // 是否为直接用详情链接进站（决定关闭时能否 history.back）
@@ -58,6 +149,15 @@ const esc = s => String(s == null ? '' : s).replace(/[&<>"']/g, c =>
 function eqKey(e) { return EQ_ALIAS[e.equipment || ''] || 'other'; }
 function exImg(e, idx = 0) { return 'assets/exercises/' + ((e.images && e.images[idx]) || ''); }
 function coverOf(id) { const e = byId[id]; return e ? exImg(e) : ''; }
+
+// 动作卡片（浏览页与器械详情页共用）
+function exCard(e) {
+  const tag = e.genderSet ? '<span class="gender-tag">男/女</span>' : '';
+  return `<div class="card" onclick="go('#/ex/${encodeURIComponent(e.id)}')">
+    ${tag}<img src="${exImg(e)}" loading="lazy" onerror="this.outerHTML='<div class=\\'ph\\'>动作</div>'">
+    <div class="body"><div class="name">${esc(e.name_zh || e.name_en)}</div>
+    <div class="meta">${esc([e.equipment_zh, e.level_zh].filter(Boolean).join(' · '))}</div></div></div>`;
+}
 
 /* ---------------- 路由 ---------------- */
 function toHash() {
@@ -115,12 +215,21 @@ function route() {
       if (isNew) shown = PAGE_SIZE;
       renderBrowse();
     }
+  } else if (path.startsWith('/equip/')) {
+    const key = decodeURIComponent(path.slice(7));
+    setTab('equip');
+    // 从详情弹窗返回时不重渲染，保住滚动位置与已加载条数
+    if (app.dataset.view !== 'equip:' + key) {
+      if (curEqKey !== key) eqShown = PAGE_SIZE;
+      curEqKey = key;
+      renderEquipDetail(key);
+    }
   } else if (path === '/equip') {
     setTab('equip');
-    renderEquipment();
+    if (app.dataset.view !== 'equip') renderEquipment();
   } else {
     setTab('home');
-    renderHome();
+    if (app.dataset.view !== 'home') renderHome();
   }
 }
 
@@ -350,13 +459,7 @@ function renderBrowse() {
 
   const page = list.slice(0, shown);
   h += '<div class="grid">';
-  for (const e of page) {
-    const tag = e.genderSet ? '<span class="gender-tag">男/女</span>' : '';
-    h += `<div class="card" onclick="go('#/ex/${encodeURIComponent(e.id)}')">
-      ${tag}<img src="${exImg(e)}" loading="lazy" onerror="this.outerHTML='<div class=\\'ph\\'>动作</div>'">
-      <div class="body"><div class="name">${esc(e.name_zh || e.name_en)}</div>
-      <div class="meta">${esc([e.equipment_zh, e.level_zh].filter(Boolean).join(' · '))}</div></div></div>`;
-  }
+  for (const e of page) h += exCard(e);
   h += '</div>';
 
   if (list.length > shown) {
@@ -443,25 +546,100 @@ function tip(e) {
   return '3–5 组 × 8–12 次，组间休息 60–120 秒；先把动作做标准，再逐步加重。';
 }
 
-/* ---------------- 器械图鉴 ---------------- */
+/* ---------------- 器械图鉴：列表 ---------------- */
+function eqCat(key) { return (EQ || []).find(c => c.key === key); }
+
 function renderEquipment() {
-  let h = '<div class="section-title">器械图鉴 — 认机器，知道练哪</div><div class="grid">';
-  for (const c of EQ) {
-    const ex = (c.examples || []).map(x =>
-      `<span class="badge tapb" onclick="go('#/ex/${encodeURIComponent(x.id)}')">${esc(x.name_zh || x.name_en)}</span>`).join('');
-    const img = c.img
-      ? `<img src="assets/equipment/${c.img}" loading="lazy" onerror="this.outerHTML='<div class=\\'ph\\'>${esc(c.name_zh)}</div>'">`
-      : `<div class="ph">${esc(c.name_zh)}</div>`;
-    h += `<div class="card nolink">${img}
-      <div class="body"><div class="name">${esc(c.name_zh)}</div>
-      <div class="meta">${esc(c.name_en)} · <span class="badge">练 ${esc(c.bodyPart_zh)}</span></div>
-      <div class="desc">${esc(c.desc)}</div>
-      <div>${ex}</div></div></div>`;
+  let h = `<div class="crumb"><a onclick="go('#/')">分类首页</a><span>›</span>器械图鉴</div>
+    <div class="eqhero">
+      <h1>器械图鉴</h1>
+      <p>${EQ.length} 种常见器械 · 点任意一张卡片，直接看到这台机器能练的全部动作</p>
+    </div>`;
+
+  for (const sec of EQ_SECTIONS) {
+    const cats = sec.keys.map(eqCat).filter(Boolean);
+    if (!cats.length) continue;
+    h += `<div class="eqsec">
+      <div class="eqsec-h"><span class="eqsec-t">${esc(sec.title)}</span><span class="eqsec-s">${esc(sec.sub)}</span></div>
+      <div class="eqgrid">`;
+    for (const c of cats) {
+      const n = eqExercises(c.key).length;
+      const cover = eqCover(c);
+      const img = cover
+        ? `<img src="${cover}" loading="lazy" onerror="this.outerHTML='<div class=\\'eqph\\'>${esc(c.name_zh)}</div>'">`
+        : `<div class="eqph">${esc(c.name_zh)}</div>`;
+      h += `<div class="eqcard" onclick="go('#/equip/${encodeURIComponent(c.key)}')">
+        <div class="eqcard-img">${img}<span class="eqcard-n">${n} 个动作</span></div>
+        <div class="eqcard-b">
+          <div class="eqcard-t">${esc(c.name_zh)}</div>
+          <div class="eqcard-en">${esc(c.name_en)}</div>
+          <div class="eqcard-d">${esc(c.desc || '')}</div>
+          <div class="eqcard-f"><span class="badge">练 ${esc(c.bodyPart_zh)}</span><span class="eqcard-go">查看动作 →</span></div>
+        </div></div>`;
+    }
+    h += `</div></div>`;
   }
-  h += '</div>';
+
   app.innerHTML = h;
   app.dataset.view = 'equip';
   window.scrollTo(0, 0);
 }
+
+/* ---------------- 器械详情：这台机器能练什么 ---------------- */
+function renderEquipDetail(key) {
+  const c = eqCat(key);
+  if (!c) { go('#/equip', true); return; }
+  const list = eqExercises(key);
+  const cover = eqCover(c);
+  const sec = EQ_SECTIONS.find(s => s.keys.includes(key));
+
+  // 该器械动作的部位分布，让人一眼知道能练哪
+  const parts = {};
+  list.forEach(e => { const p = e.bodyPart_zh; if (p) parts[p] = (parts[p] || 0) + 1; });
+  const partChips = PART_ORDER.filter(p => parts[p])
+    .map(p => `<span class="badge">${esc(p)} ${parts[p]}</span>`).join('');
+
+  let h = `<div class="crumb">
+    <a onclick="go('#/')">分类首页</a><span>›</span>
+    <a onclick="go('#/equip')">器械图鉴</a><span>›</span>${esc(c.name_zh)}</div>`;
+
+  const img = cover
+    ? `<img src="${cover}" onerror="this.outerHTML='<div class=\\'eqph big\\'>${esc(c.name_zh)}</div>'">`
+    : `<div class="eqph big">${esc(c.name_zh)}</div>`;
+
+  h += `<div class="eqdetail">
+    <div class="eqdetail-img">${img}</div>
+    <div class="eqdetail-info">
+      <h1>${esc(c.name_zh)}</h1>
+      <div class="eqdetail-en">${esc(c.name_en)}</div>
+      <p class="eqdetail-desc">${esc(c.desc || '')}</p>
+      <div class="eqdetail-meta">
+        <span class="badge strong">共 ${list.length} 个动作</span>
+        <span class="badge">主练 ${esc(c.bodyPart_zh)}</span>
+        ${sec ? `<span class="badge">${esc(sec.title)}</span>` : ''}
+      </div>
+      ${partChips ? `<div class="eqdetail-parts"><span class="lbl">覆盖部位</span>${partChips}</div>` : ''}
+      ${EQ_BY_FIELD[key] ? `<div class="eqdetail-act"><span class="linkbtn" onclick="pick('eq','${esc(key)}')">在「全部动作」里筛选该器械 →</span></div>` : ''}
+    </div>
+  </div>`;
+
+  if (!list.length) {
+    h += `<div class="empty">暂无收录该器械的动作</div>`;
+  } else {
+    const page = list.slice(0, eqShown);
+    h += `<div class="section-title">这台器械能练的动作（${list.length}）</div><div class="grid">`;
+    for (const e of page) h += exCard(e);
+    h += '</div>';
+    if (list.length > eqShown) {
+      h += `<div class="morebtn" onclick="eqMore()">加载更多（还有 ${list.length - eqShown} 个）</div>`;
+    }
+  }
+
+  app.innerHTML = h;
+  app.dataset.view = 'equip:' + key;
+  if (eqShown === PAGE_SIZE) window.scrollTo(0, 0);
+}
+
+function eqMore() { eqShown += PAGE_SIZE; renderEquipDetail(curEqKey); }
 
 init();
