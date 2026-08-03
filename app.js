@@ -104,7 +104,8 @@ function renderDetail(id){
     <div class="imgs">${imgs}</div>
     <div class="section-title">目标肌群</div>
     <div><span class="badge">主要：${prim}</span>${sec!=='—'?`<span class="badge">协同：${sec}</span>`:''}</div>
-    ${window.muscleMapHTML(e.primaryMuscles, e.secondaryMuscles)}
+    <img class="muscle-svg-img" src="assets/muscle/${e.id}.svg" alt="目标肌群示意（红=主要，橙=协同）" loading="lazy">
+    <div class="muscle-legend">🔴 主要肌群　🟠 协同肌群（红/橙块即发力部位，鼠标悬停看名称）</div>
     ${equipLine(e)}
     <div class="section-title">动作要点</div><ul>${cues}</ul>
     <div class="section-title">常见错误</div><ul>${mis}</ul>
