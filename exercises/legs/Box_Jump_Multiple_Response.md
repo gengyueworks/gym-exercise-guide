@@ -18,9 +18,10 @@
 
 ## 动作示意图
 
-| 起始位 | 结束位 |
-|:---:|:---:|
-| <img src="../../assets/exercises/Box_Jump_Multiple_Response/0.jpg" width="360"> | <img src="../../assets/exercises/Box_Jump_Multiple_Response/1.jpg" width="360"> |
+|  | 起始位 | 结束位 |
+|:---:|:---:|:---:|
+| **男性** | <img src="../../assets/exercises/Box_Jump_Multiple_Response/0.jpg" width="300"> | <img src="../../assets/exercises/Box_Jump_Multiple_Response/2.jpg" width="300"> |
+| **女性** | <img src="../../assets/exercises/Box_Jump_Multiple_Response/1.jpg" width="300"> | <img src="../../assets/exercises/Box_Jump_Multiple_Response/3.jpg" width="300"> |
 
 ## 动作要点
 

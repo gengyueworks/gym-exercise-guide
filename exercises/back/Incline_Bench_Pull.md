@@ -18,9 +18,10 @@
 
 ## 动作示意图
 
-| 起始位 | 结束位 |
-|:---:|:---:|
-| <img src="../../assets/exercises/Incline_Bench_Pull/0.jpg" width="360"> | <img src="../../assets/exercises/Incline_Bench_Pull/1.jpg" width="360"> |
+|  | 起始位 | 结束位 |
+|:---:|:---:|:---:|
+| **男性** | <img src="../../assets/exercises/Incline_Bench_Pull/0.jpg" width="300"> | <img src="../../assets/exercises/Incline_Bench_Pull/2.jpg" width="300"> |
+| **女性** | <img src="../../assets/exercises/Incline_Bench_Pull/1.jpg" width="300"> | <img src="../../assets/exercises/Incline_Bench_Pull/3.jpg" width="300"> |
 
 ## 动作要点
 
