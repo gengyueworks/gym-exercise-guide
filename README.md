@@ -70,6 +70,10 @@ Exercise data and demonstration images come from [yuhonas/free-exercise-db](http
 
 The anatomical body paths used in the muscle activation diagrams come from [vulovix/body-muscles](https://github.com/vulovix/body-muscles), licensed under Apache License 2.0.
 
+**男/女真人演示图**：部分精选动作已逐步替换为 AI 生成的照片级男女演示图（男/女 × 起始位/结束位），风格统一为白底健身摄影。这些图像为项目自有生成资产，可在仓库授权范围内自由使用。
+
+Gender-diverse demonstration photos for selected exercises are AI-generated photo-realistic fitness images (male/female × start/end position), produced as project-specific assets.
+
 ### 本项目
 
 - 中文动作名称翻译、中文动作要点、常见错误提示、训练建议、分类体系与内容组织：**Yue（[gengyueworks](https://github.com/gengyueworks)）**
