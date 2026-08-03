@@ -696,9 +696,12 @@
   "category": "strongman",
   "images": [
    "Atlas_Stone_Trainer/0.jpg",
-   "Atlas_Stone_Trainer/1.jpg"
+   "Atlas_Stone_Trainer/1.jpg",
+   "Atlas_Stone_Trainer/2.jpg",
+   "Atlas_Stone_Trainer/3.jpg"
   ],
-  "id": "Atlas_Stone_Trainer"
+  "id": "Atlas_Stone_Trainer",
+  "genderSet": true
  },
  {
   "name": "Atlas Stones",
@@ -1119,9 +1122,12 @@
   "category": "strength",
   "images": [
    "Barbell_Bench_Press_-_Medium_Grip/0.jpg",
-   "Barbell_Bench_Press_-_Medium_Grip/1.jpg"
+   "Barbell_Bench_Press_-_Medium_Grip/1.jpg",
+   "Barbell_Bench_Press_-_Medium_Grip/2.jpg",
+   "Barbell_Bench_Press_-_Medium_Grip/3.jpg"
   ],
-  "id": "Barbell_Bench_Press_-_Medium_Grip"
+  "id": "Barbell_Bench_Press_-_Medium_Grip",
+  "genderSet": true
  },
  {
   "name": "Barbell Curl",
@@ -1145,9 +1151,12 @@
   "category": "strength",
   "images": [
    "Barbell_Curl/0.jpg",
-   "Barbell_Curl/1.jpg"
+   "Barbell_Curl/1.jpg",
+   "Barbell_Curl/2.jpg",
+   "Barbell_Curl/3.jpg"
   ],
-  "id": "Barbell_Curl"
+  "id": "Barbell_Curl",
+  "genderSet": true
  },
  {
   "name": "Barbell Curls Lying Against An Incline",
@@ -1201,9 +1210,12 @@
   "category": "strength",
   "images": [
    "Barbell_Deadlift/0.jpg",
-   "Barbell_Deadlift/1.jpg"
+   "Barbell_Deadlift/1.jpg",
+   "Barbell_Deadlift/2.jpg",
+   "Barbell_Deadlift/3.jpg"
   ],
-  "id": "Barbell_Deadlift"
+  "id": "Barbell_Deadlift",
+  "genderSet": true
  },
  {
   "name": "Barbell Full Squat",
@@ -1231,9 +1243,12 @@
   "category": "strength",
   "images": [
    "Barbell_Full_Squat/0.jpg",
-   "Barbell_Full_Squat/1.jpg"
+   "Barbell_Full_Squat/1.jpg",
+   "Barbell_Full_Squat/2.jpg",
+   "Barbell_Full_Squat/3.jpg"
   ],
-  "id": "Barbell_Full_Squat"
+  "id": "Barbell_Full_Squat",
+  "genderSet": true
  },
  {
   "name": "Barbell Glute Bridge",
@@ -1335,9 +1350,12 @@
   "category": "powerlifting",
   "images": [
    "Barbell_Hip_Thrust/0.jpg",
-   "Barbell_Hip_Thrust/1.jpg"
+   "Barbell_Hip_Thrust/1.jpg",
+   "Barbell_Hip_Thrust/2.jpg",
+   "Barbell_Hip_Thrust/3.jpg"
   ],
-  "id": "Barbell_Hip_Thrust"
+  "id": "Barbell_Hip_Thrust",
+  "genderSet": true
  },
  {
   "name": "Barbell Incline Bench Press - Medium Grip",
@@ -1415,9 +1433,12 @@
   "category": "strength",
   "images": [
    "Barbell_Lunge/0.jpg",
-   "Barbell_Lunge/1.jpg"
+   "Barbell_Lunge/1.jpg",
+   "Barbell_Lunge/2.jpg",
+   "Barbell_Lunge/3.jpg"
   ],
-  "id": "Barbell_Lunge"
+  "id": "Barbell_Lunge",
+  "genderSet": true
  },
  {
   "name": "Barbell Rear Delt Row",
@@ -1495,9 +1516,12 @@
   "category": "strength",
   "images": [
    "Barbell_Seated_Calf_Raise/0.jpg",
-   "Barbell_Seated_Calf_Raise/1.jpg"
+   "Barbell_Seated_Calf_Raise/1.jpg",
+   "Barbell_Seated_Calf_Raise/2.jpg",
+   "Barbell_Seated_Calf_Raise/3.jpg"
   ],
-  "id": "Barbell_Seated_Calf_Raise"
+  "id": "Barbell_Seated_Calf_Raise",
+  "genderSet": true
  },
  {
   "name": "Barbell Shoulder Press",
@@ -1545,9 +1569,12 @@
   "category": "strength",
   "images": [
    "Barbell_Shrug/0.jpg",
-   "Barbell_Shrug/1.jpg"
+   "Barbell_Shrug/1.jpg",
+   "Barbell_Shrug/2.jpg",
+   "Barbell_Shrug/3.jpg"
   ],
-  "id": "Barbell_Shrug"
+  "id": "Barbell_Shrug",
+  "genderSet": true
  },
  {
   "name": "Barbell Shrug Behind The Back",
@@ -1842,9 +1869,12 @@
   "category": "strength",
   "images": [
    "Bench_Dips/0.jpg",
-   "Bench_Dips/1.jpg"
+   "Bench_Dips/1.jpg",
+   "Bench_Dips/2.jpg",
+   "Bench_Dips/3.jpg"
   ],
-  "id": "Bench_Dips"
+  "id": "Bench_Dips",
+  "genderSet": true
  },
  {
   "name": "Bench Jump",
@@ -2090,9 +2120,12 @@
   "category": "strength",
   "images": [
    "Bent_Over_Barbell_Row/0.jpg",
-   "Bent_Over_Barbell_Row/1.jpg"
+   "Bent_Over_Barbell_Row/1.jpg",
+   "Bent_Over_Barbell_Row/2.jpg",
+   "Bent_Over_Barbell_Row/3.jpg"
   ],
-  "id": "Bent_Over_Barbell_Row"
+  "id": "Bent_Over_Barbell_Row",
+  "genderSet": true
  },
  {
   "name": "Bent Over Dumbbell Rear Delt Raise With Head On Bench",
@@ -2331,9 +2364,12 @@
   "category": "cardio",
   "images": [
    "Bicycling_Stationary/0.jpg",
-   "Bicycling_Stationary/1.jpg"
+   "Bicycling_Stationary/1.jpg",
+   "Bicycling_Stationary/2.jpg",
+   "Bicycling_Stationary/3.jpg"
   ],
-  "id": "Bicycling_Stationary"
+  "id": "Bicycling_Stationary",
+  "genderSet": true
  },
  {
   "name": "Board Press",
@@ -2617,9 +2653,12 @@
   "category": "plyometrics",
   "images": [
    "Box_Jump_Multiple_Response/0.jpg",
-   "Box_Jump_Multiple_Response/1.jpg"
+   "Box_Jump_Multiple_Response/1.jpg",
+   "Box_Jump_Multiple_Response/2.jpg",
+   "Box_Jump_Multiple_Response/3.jpg"
   ],
-  "id": "Box_Jump_Multiple_Response"
+  "id": "Box_Jump_Multiple_Response",
+  "genderSet": true
  },
  {
   "name": "Box Skip",
@@ -3336,9 +3375,12 @@
   "category": "strength",
   "images": [
    "Cable_Russian_Twists/0.jpg",
-   "Cable_Russian_Twists/1.jpg"
+   "Cable_Russian_Twists/1.jpg",
+   "Cable_Russian_Twists/2.jpg",
+   "Cable_Russian_Twists/3.jpg"
   ],
-  "id": "Cable_Russian_Twists"
+  "id": "Cable_Russian_Twists",
+  "genderSet": true
  },
  {
   "name": "Cable Seated Crunch",
@@ -4591,9 +4633,12 @@
   "category": "strength",
   "images": [
    "Close-Grip_Front_Lat_Pulldown/0.jpg",
-   "Close-Grip_Front_Lat_Pulldown/1.jpg"
+   "Close-Grip_Front_Lat_Pulldown/1.jpg",
+   "Close-Grip_Front_Lat_Pulldown/2.jpg",
+   "Close-Grip_Front_Lat_Pulldown/3.jpg"
   ],
-  "id": "Close-Grip_Front_Lat_Pulldown"
+  "id": "Close-Grip_Front_Lat_Pulldown",
+  "genderSet": true
  },
  {
   "name": "Close-Grip Push-Up off of a Dumbbell",
@@ -4924,9 +4969,12 @@
   "category": "strength",
   "images": [
    "Crunches/0.jpg",
-   "Crunches/1.jpg"
+   "Crunches/1.jpg",
+   "Crunches/2.jpg",
+   "Crunches/3.jpg"
   ],
-  "id": "Crunches"
+  "id": "Crunches",
+  "genderSet": true
  },
  {
   "name": "Cuban Press",
@@ -5195,9 +5243,12 @@
   "category": "strength",
   "images": [
    "Decline_Dumbbell_Flyes/0.jpg",
-   "Decline_Dumbbell_Flyes/1.jpg"
+   "Decline_Dumbbell_Flyes/1.jpg",
+   "Decline_Dumbbell_Flyes/2.jpg",
+   "Decline_Dumbbell_Flyes/3.jpg"
   ],
-  "id": "Decline_Dumbbell_Flyes"
+  "id": "Decline_Dumbbell_Flyes",
+  "genderSet": true
  },
  {
   "name": "Decline Dumbbell Triceps Extension",
@@ -6966,9 +7017,12 @@
   "category": "strongman",
   "images": [
    "Farmers_Walk/0.jpg",
-   "Farmers_Walk/1.jpg"
+   "Farmers_Walk/1.jpg",
+   "Farmers_Walk/2.jpg",
+   "Farmers_Walk/3.jpg"
   ],
-  "id": "Farmers_Walk"
+  "id": "Farmers_Walk",
+  "genderSet": true
  },
  {
   "name": "Fast Skipping",
@@ -7218,9 +7272,12 @@
   "category": "strength",
   "images": [
    "Flutter_Kicks/0.jpg",
-   "Flutter_Kicks/1.jpg"
+   "Flutter_Kicks/1.jpg",
+   "Flutter_Kicks/2.jpg",
+   "Flutter_Kicks/3.jpg"
   ],
-  "id": "Flutter_Kicks"
+  "id": "Flutter_Kicks",
+  "genderSet": true
  },
  {
   "name": "Foot-SMR",
@@ -8067,9 +8124,12 @@
   "category": "stretching",
   "images": [
    "Hamstring-SMR/0.jpg",
-   "Hamstring-SMR/1.jpg"
+   "Hamstring-SMR/1.jpg",
+   "Hamstring-SMR/2.jpg",
+   "Hamstring-SMR/3.jpg"
   ],
-  "id": "Hamstring-SMR"
+  "id": "Hamstring-SMR",
+  "genderSet": true
  },
  {
   "name": "Hamstring Stretch",
@@ -8746,9 +8806,12 @@
   "category": "strength",
   "images": [
    "Incline_Bench_Pull/0.jpg",
-   "Incline_Bench_Pull/1.jpg"
+   "Incline_Bench_Pull/1.jpg",
+   "Incline_Bench_Pull/2.jpg",
+   "Incline_Bench_Pull/3.jpg"
   ],
-  "id": "Incline_Bench_Pull"
+  "id": "Incline_Bench_Pull",
+  "genderSet": true
  },
  {
   "name": "Incline Cable Chest Press",
@@ -9357,9 +9420,12 @@
   "category": "strength",
   "images": [
    "Isometric_Neck_Exercise_-_Front_And_Back/0.jpg",
-   "Isometric_Neck_Exercise_-_Front_And_Back/1.jpg"
+   "Isometric_Neck_Exercise_-_Front_And_Back/1.jpg",
+   "Isometric_Neck_Exercise_-_Front_And_Back/2.jpg",
+   "Isometric_Neck_Exercise_-_Front_And_Back/3.jpg"
   ],
-  "id": "Isometric_Neck_Exercise_-_Front_And_Back"
+  "id": "Isometric_Neck_Exercise_-_Front_And_Back",
+  "genderSet": true
  },
  {
   "name": "Isometric Neck Exercise - Sides",
@@ -10634,9 +10700,12 @@
   "category": "strength",
   "images": [
    "Leg_Extensions/0.jpg",
-   "Leg_Extensions/1.jpg"
+   "Leg_Extensions/1.jpg",
+   "Leg_Extensions/2.jpg",
+   "Leg_Extensions/3.jpg"
   ],
-  "id": "Leg_Extensions"
+  "id": "Leg_Extensions",
+  "genderSet": true
  },
  {
   "name": "Leg Lift",
@@ -10688,9 +10757,12 @@
   "category": "strength",
   "images": [
    "Leg_Press/0.jpg",
-   "Leg_Press/1.jpg"
+   "Leg_Press/1.jpg",
+   "Leg_Press/2.jpg",
+   "Leg_Press/3.jpg"
   ],
-  "id": "Leg_Press"
+  "id": "Leg_Press",
+  "genderSet": true
  },
  {
   "name": "Leg Pull-In",
@@ -11584,9 +11656,12 @@
   "category": "strength",
   "images": [
    "Lying_Leg_Curls/0.jpg",
-   "Lying_Leg_Curls/1.jpg"
+   "Lying_Leg_Curls/1.jpg",
+   "Lying_Leg_Curls/2.jpg",
+   "Lying_Leg_Curls/3.jpg"
   ],
-  "id": "Lying_Leg_Curls"
+  "id": "Lying_Leg_Curls",
+  "genderSet": true
  },
  {
   "name": "Lying Machine Squat",
@@ -12866,9 +12941,12 @@
   "category": "strength",
   "images": [
    "One-Arm_Kettlebell_Swings/0.jpg",
-   "One-Arm_Kettlebell_Swings/1.jpg"
+   "One-Arm_Kettlebell_Swings/1.jpg",
+   "One-Arm_Kettlebell_Swings/2.jpg",
+   "One-Arm_Kettlebell_Swings/3.jpg"
   ],
-  "id": "One-Arm_Kettlebell_Swings"
+  "id": "One-Arm_Kettlebell_Swings",
+  "genderSet": true
  },
  {
   "name": "One-Arm Long Bar Row",
@@ -13696,9 +13774,12 @@
   "category": "strength",
   "images": [
    "Palms-Down_Wrist_Curl_Over_A_Bench/0.jpg",
-   "Palms-Down_Wrist_Curl_Over_A_Bench/1.jpg"
+   "Palms-Down_Wrist_Curl_Over_A_Bench/1.jpg",
+   "Palms-Down_Wrist_Curl_Over_A_Bench/2.jpg",
+   "Palms-Down_Wrist_Curl_Over_A_Bench/3.jpg"
   ],
-  "id": "Palms-Down_Wrist_Curl_Over_A_Bench"
+  "id": "Palms-Down_Wrist_Curl_Over_A_Bench",
+  "genderSet": true
  },
  {
   "name": "Palms-Up Barbell Wrist Curl Over A Bench",
@@ -13935,9 +14016,12 @@
   "category": "strength",
   "images": [
    "Plank/0.jpg",
-   "Plank/1.jpg"
+   "Plank/1.jpg",
+   "Plank/2.jpg",
+   "Plank/3.jpg"
   ],
-  "id": "Plank"
+  "id": "Plank",
+  "genderSet": true
  },
  {
   "name": "Plate Pinch",
@@ -14277,9 +14361,12 @@
   "category": "olympic weightlifting",
   "images": [
    "Power_Snatch/0.jpg",
-   "Power_Snatch/1.jpg"
+   "Power_Snatch/1.jpg",
+   "Power_Snatch/2.jpg",
+   "Power_Snatch/3.jpg"
   ],
-  "id": "Power_Snatch"
+  "id": "Power_Snatch",
+  "genderSet": true
  },
  {
   "name": "Power Snatch from Blocks",
@@ -14518,9 +14605,12 @@
   "category": "strength",
   "images": [
    "Pullups/0.jpg",
-   "Pullups/1.jpg"
+   "Pullups/1.jpg",
+   "Pullups/2.jpg",
+   "Pullups/3.jpg"
   ],
-  "id": "Pullups"
+  "id": "Pullups",
+  "genderSet": true
  },
  {
   "name": "Push-Up Wide",
@@ -14726,9 +14816,12 @@
   "category": "strength",
   "images": [
    "Pushups/0.jpg",
-   "Pushups/1.jpg"
+   "Pushups/1.jpg",
+   "Pushups/2.jpg",
+   "Pushups/3.jpg"
   ],
-  "id": "Pushups"
+  "id": "Pushups",
+  "genderSet": true
  },
  {
   "name": "Pushups (Close and Wide Hand Positions)",
@@ -15353,9 +15446,12 @@
   "category": "strength",
   "images": [
    "Reverse_Grip_Triceps_Pushdown/0.jpg",
-   "Reverse_Grip_Triceps_Pushdown/1.jpg"
+   "Reverse_Grip_Triceps_Pushdown/1.jpg",
+   "Reverse_Grip_Triceps_Pushdown/2.jpg",
+   "Reverse_Grip_Triceps_Pushdown/3.jpg"
   ],
-  "id": "Reverse_Grip_Triceps_Pushdown"
+  "id": "Reverse_Grip_Triceps_Pushdown",
+  "genderSet": true
  },
  {
   "name": "Reverse Hyperextension",
@@ -16878,9 +16974,12 @@
   "category": "strength",
   "images": [
    "Seated_Side_Lateral_Raise/0.jpg",
-   "Seated_Side_Lateral_Raise/1.jpg"
+   "Seated_Side_Lateral_Raise/1.jpg",
+   "Seated_Side_Lateral_Raise/2.jpg",
+   "Seated_Side_Lateral_Raise/3.jpg"
   ],
-  "id": "Seated_Side_Lateral_Raise"
+  "id": "Seated_Side_Lateral_Raise",
+  "genderSet": true
  },
  {
   "name": "Seated Triceps Press",
@@ -19773,9 +19872,12 @@
   "category": "stretching",
   "images": [
    "Standing_Hamstring_and_Calf_Stretch/0.jpg",
-   "Standing_Hamstring_and_Calf_Stretch/1.jpg"
+   "Standing_Hamstring_and_Calf_Stretch/1.jpg",
+   "Standing_Hamstring_and_Calf_Stretch/2.jpg",
+   "Standing_Hamstring_and_Calf_Stretch/3.jpg"
   ],
-  "id": "Standing_Hamstring_and_Calf_Stretch"
+  "id": "Standing_Hamstring_and_Calf_Stretch",
+  "genderSet": true
  },
  {
   "name": "Standing Hip Circles",
@@ -20000,9 +20102,12 @@
   "category": "strength",
   "images": [
    "Standing_Military_Press/0.jpg",
-   "Standing_Military_Press/1.jpg"
+   "Standing_Military_Press/1.jpg",
+   "Standing_Military_Press/2.jpg",
+   "Standing_Military_Press/3.jpg"
   ],
-  "id": "Standing_Military_Press"
+  "id": "Standing_Military_Press",
+  "genderSet": true
  },
  {
   "name": "Standing Olympic Plate Hand Squeeze",

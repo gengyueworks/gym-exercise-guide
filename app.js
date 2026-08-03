@@ -60,14 +60,30 @@ function renderPart(p){
 function renderGrid(list, title){
   let h = `<div class="section-title">${title}</div><div class="grid">`;
   for (const e of list){
+    const tag = e.genderSet ? '<span class="gender-tag">男/女</span>' : '';
     h += `<div class="card" onclick="renderDetail('${e.id}')">
-      <img src="${exImg(e)}" onerror="this.outerHTML='<div class=\\'ph\\'>动作</div>'">
+      ${tag}<img src="${exImg(e)}" onerror="this.outerHTML='<div class=\\'ph\\'>动作</div>'">
       <div class="body"><div class="name">${e.name_zh||e.name_en}</div>
       <div class="meta">${[e.equipment_zh, e.level_zh].filter(Boolean).join(' · ')}</div></div></div>`;
   }
   h += '</div>';
   app.innerHTML = h;
   window.scrollTo(0, 0);
+}
+
+// 有男女四图（0=男起 1=女起 2=男止 3=女止）时渲染成对照网格，否则平铺
+function renderShots(e){
+  const im = e.images || [];
+  const src = i => `assets/exercises/${i}`;
+  if (e.genderSet && im.length >= 4){
+    const cell = (i, label) =>
+      `<figure class="shot-cell"><img class="shot" src="${src(im[i])}" loading="lazy" onerror="this.style.background='#eee'"><figcaption>${label}</figcaption></figure>`;
+    return `<div class="shot-grid">
+      ${cell(0,'男性 · 起始位')}${cell(2,'男性 · 结束位')}
+      ${cell(1,'女性 · 起始位')}${cell(3,'女性 · 结束位')}
+    </div>`;
+  }
+  return im.map(i => `<img class="shot" src="${src(i)}" loading="lazy" onerror="this.style.background='#eee'">`).join('');
 }
 
 function renderDetail(id){
@@ -77,7 +93,7 @@ function renderDetail(id){
   const cues = (e.cues_zh||[]).map(c => `<li>${c}</li>`).join('');
   const mis   = (e.mistakes_zh||[]).map(m => `<li class="mistake">${m}</li>`).join('');
   const tips  = tip(e);
-  const imgs  = (e.images||[]).map(i => `<img class="shot" src="assets/exercises/${i}" onerror="this.style.background='#eee'">`).join('');
+  const imgs  = renderShots(e);
   const ov = document.createElement('div'); ov.className = 'overlay';
   ov.onclick = (ev) => { if (ev.target === ov) ov.remove(); };
   ov.innerHTML = `<div class="modal">
