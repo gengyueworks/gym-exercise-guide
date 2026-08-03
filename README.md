@@ -66,6 +66,10 @@
 
 Exercise data and demonstration images come from [yuhonas/free-exercise-db](https://github.com/yuhonas/free-exercise-db), released under [The Unlicense](https://unlicense.org/) (public domain).
 
+**肌肉激活示意图**的人体解剖路径来自 **[vulovix/body-muscles](https://github.com/vulovix/body-muscles)**，采用 **[Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)** 协议。本项目在其基础上按各动作的主要/协同肌群着色生成。
+
+The anatomical body paths used in the muscle activation diagrams come from [vulovix/body-muscles](https://github.com/vulovix/body-muscles), licensed under Apache License 2.0.
+
 ### 本项目
 
 - 中文动作名称翻译、中文动作要点、常见错误提示、训练建议、分类体系与内容组织：**Yue（[gengyueworks](https://github.com/gengyueworks)）**
