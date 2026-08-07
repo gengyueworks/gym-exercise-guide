@@ -1,10 +1,8 @@
 # Gym Exercise Guide · 健身动作指南
 
-> 我在健身房看到器械不会用。练腿的机器有七八种，每种练哪块肌肉不一样，没人告诉我。
+> 健身是我每天的日常习惯，这也是一份自律宣言。只要活着的每一天还可以健身，就有希望，就有自我救赎感。
 >
-> 网上搜过很多次。抖音一段 30 秒的视频，知乎一篇长文讲理论，小红书一张截图配三行字，收藏了一堆还是不知道自己该练什么。最烦的是信息碎片化，每个平台一点点，拼不成一张完整的图。
->
-> 所以我自己做了这个库。873 个动作，按部位分类，每个动作配示意图加中文步骤。打开就能查，查完就能练。不用翻三个 App，不用看广告。
+> 这是一份长久的肌肉投资，真正有价值，毫无欺骗，所有的投入，每分每秒，每次组数，每次力竭，都会把力量注入美中。
 
 > *I walked into the gym and didn't know how to use the machines. There are seven or eight leg machines, each training a different muscle, and no one told me which was which.*
 >
@@ -15,6 +13,8 @@
 ---
 
 **873 个动作 · 7 大部位 · 中英双语 · 1746 张动作示意图 · 全部开源**
+
+> 这个库目前有873 个动作，按部位分类，每个动作配示意图加中文步骤。打开就能查，查完就能练。
 
 > 873 exercises · 7 body parts · Bilingual (中文/English) · 1746 demonstration images · Fully open source
 
