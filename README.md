@@ -4,11 +4,9 @@
 >
 > 这是一份长久的肌肉投资，真正有价值，毫无欺骗，所有的投入，每分每秒，每次组数，每次力竭，都会把力量注入美中。
 
-> *I walked into the gym and didn't know how to use the machines. There are seven or eight leg machines, each training a different muscle, and no one told me which was which.*
+> *Working out is my daily routine, and this library is my declaration of self-discipline. As long as I can still train every day I'm alive, there is hope, there is self-redemption.*
 >
-> *I searched online again and again — a 30-second clip on Douyin, a long theory post on Zhihu, a screenshot with three lines on Xiaohongshu. I bookmarked a pile but still didn't know what to train. The worst part is fragmented information: a little from each platform that never adds up to a complete picture.*
->
-> *So I built this library myself. 873 exercises, sorted by body part, each with demonstration images and Chinese step-by-step cues. Open it, look it up, train. No hopping between three apps, no ads.*
+> *This is a long-term investment in muscle. Truly valuable, no deception. Every second, every set, every rep to failure pours strength into beauty.*
 
 ---
 
